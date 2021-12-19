@@ -50,14 +50,6 @@ cupertino_icons
 2.12
 file:///home/brrrellu/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.4/
 file:///home/brrrellu/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.4/lib/
-extended_image
-2.14
-file:///home/brrrellu/flutter/.pub-cache/hosted/pub.dartlang.org/extended_image-6.0.1/
-file:///home/brrrellu/flutter/.pub-cache/hosted/pub.dartlang.org/extended_image-6.0.1/lib/
-extended_image_library
-2.12
-file:///home/brrrellu/flutter/.pub-cache/hosted/pub.dartlang.org/extended_image_library-3.1.0/
-file:///home/brrrellu/flutter/.pub-cache/hosted/pub.dartlang.org/extended_image_library-3.1.0/lib/
 fake_async
 2.12
 file:///home/brrrellu/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0/
@@ -90,10 +82,6 @@ http
 2.14
 file:///home/brrrellu/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.4/
 file:///home/brrrellu/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.4/lib/
-http_client_helper
-2.12
-file:///home/brrrellu/flutter/.pub-cache/hosted/pub.dartlang.org/http_client_helper-2.0.2/
-file:///home/brrrellu/flutter/.pub-cache/hosted/pub.dartlang.org/http_client_helper-2.0.2/lib/
 http_parser
 2.12
 file:///home/brrrellu/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.0/

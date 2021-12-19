@@ -74,18 +74,6 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "extended_image",
-      "rootUri": "file:///home/brrrellu/flutter/.pub-cache/hosted/pub.dartlang.org/extended_image-6.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
-      "name": "extended_image_library",
-      "rootUri": "file:///home/brrrellu/flutter/.pub-cache/hosted/pub.dartlang.org/extended_image_library-3.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "fake_async",
       "rootUri": "file:///home/brrrellu/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0",
       "packageUri": "lib/",
@@ -150,12 +138,6 @@
       "rootUri": "file:///home/brrrellu/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.4",
       "packageUri": "lib/",
       "languageVersion": "2.14"
-    },
-    {
-      "name": "http_client_helper",
-      "rootUri": "file:///home/brrrellu/flutter/.pub-cache/hosted/pub.dartlang.org/http_client_helper-2.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
     },
     {
       "name": "http_parser",
@@ -368,7 +350,7 @@
       "languageVersion": "2.15"
     }
   ],
-  "generated": "2021-12-19T19:54:02.292344Z",
+  "generated": "2021-12-19T20:29:20.277681Z",
   "generator": "pub",
   "generatorVersion": "2.16.0-80.1.beta"
 }

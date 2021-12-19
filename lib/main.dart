@@ -3,27 +3,9 @@ import 'package:Salmodiamo/router/router.dart';
 import 'package:flutter/material.dart';
 import 'package:assets_audio_player/assets_audio_player.dart';
 import 'package:get/get.dart';
-import 'package:extended_image/extended_image.dart';
 import 'globals.dart' as globals;
 
-enum ToneType { PSALM, TONE }
-
 final routerDelegate = Get.put(MyRouterDelegate());
-
-class ToneArguments {
-  final ToneType type;
-  final int number;
-
-  ToneArguments(this.type, this.number);
-}
-
-class ScoreArguments {
-  final ToneType type;
-  final int number;
-  final String url;
-
-  ScoreArguments(this.type, this.number, this.url);
-}
 
 void main() async {
   runApp(Salmodiamo());
@@ -77,7 +59,7 @@ class _SalmodiamoMainState extends State<SalmodiamoMain> {
       body: Center(
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: 50),
-          child: SingleChildScrollView(
+          child: InteractiveViewer(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -128,10 +110,8 @@ class _SalmodiamoMainState extends State<SalmodiamoMain> {
                       ElevatedButton(
                         child: Text('Visualizza'),
                         onPressed: () {
-                          ToneArguments args = ToneArguments(
-                              ToneType.PSALM,
-                              int.parse(
-                                  _psalmsValue.replaceAll(globals.psalm, '')));
+                          String args =
+                              '${globals.psalms_prefix}${globals.separator}${_psalmsValue.replaceAll(globals.psalm, '')}';
                           routerDelegate.pushPage(
                             name: '/playtone',
                             arguments: args,
@@ -147,7 +127,8 @@ class _SalmodiamoMainState extends State<SalmodiamoMain> {
                       ElevatedButton(
                         child: Text(globals.tones + '2'),
                         onPressed: () {
-                          ToneArguments args = ToneArguments(ToneType.TONE, 2);
+                          String args =
+                              '${globals.tones_prefix}${globals.separator}2';
                           routerDelegate.pushPage(
                             name: '/playtone',
                             arguments: args,
@@ -158,7 +139,8 @@ class _SalmodiamoMainState extends State<SalmodiamoMain> {
                       ElevatedButton(
                         child: Text(globals.tones + '3'),
                         onPressed: () {
-                          ToneArguments args = ToneArguments(ToneType.TONE, 3);
+                          String args =
+                              '${globals.tones_prefix}${globals.separator}3';
                           routerDelegate.pushPage(
                             name: '/playtone',
                             arguments: args,
@@ -169,7 +151,8 @@ class _SalmodiamoMainState extends State<SalmodiamoMain> {
                       ElevatedButton(
                         child: Text(globals.tones + '4'),
                         onPressed: () {
-                          ToneArguments args = ToneArguments(ToneType.TONE, 4);
+                          String args =
+                              '${globals.tones_prefix}${globals.separator}4';
                           routerDelegate.pushPage(
                             name: '/playtone',
                             arguments: args,
@@ -189,12 +172,9 @@ class _SalmodiamoMainState extends State<SalmodiamoMain> {
 
 class Playtone extends StatelessWidget {
   static const _AppTitle = 'Toni';
+  String id;
 
-  ToneType type;
-  int number;
-
-  Playtone({Key? key, required this.type, required this.number})
-      : super(key: key);
+  Playtone(this.id, {Key? key}) : super(key: key);
 
   // This widget is the   ot of your application.
   @override
@@ -204,38 +184,44 @@ class Playtone extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: PlaytoneMain(type: type, number: number));
+        home: PlaytoneMain(id));
   }
 }
 
 class PlaytoneMain extends StatefulWidget {
-  final ToneType type;
-  final int number;
-
-  const PlaytoneMain({Key? key, required this.type, required this.number})
-      : super(key: key);
+  String id;
+  PlaytoneMain(this.id, {Key? key}) : super(key: key);
 
   @override
-  State<PlaytoneMain> createState() =>
-      _PlaytoneMainState(type: type, number: number);
+  State<PlaytoneMain> createState() => _PlaytoneMainState(id);
 }
 
 class _PlaytoneMainState extends State<PlaytoneMain> {
   late String title;
-  late ToneType type;
-  late int number;
+  late String type;
+  late String number;
+  String id;
+
   List<Widget> _audios = [];
   List<Widget> _scores = [];
 
   List<Widget> _content = [];
 
-  _PlaytoneMainState({required this.type, required this.number}) {
+  _PlaytoneMainState(this.id) {
+    List<String> fields = id.split(globals.separator);
+    if (fields.length == 2) {
+      type = fields[0];
+      number = fields[1];
+    } else {
+      type = '';
+      number = '';
+    }
     switch (type) {
-      case ToneType.PSALM:
-        title = 'Toni per il Salmo numero ${number.toString()}';
+      case globals.psalms_prefix:
+        title = 'Toni per il Salmo numero ${number}';
         break;
-      case ToneType.TONE:
-        title = 'Toni a ${number.toString()}';
+      case globals.tones_prefix:
+        title = 'Toni a ${number}';
         break;
     }
   }
@@ -250,19 +236,19 @@ class _PlaytoneMainState extends State<PlaytoneMain> {
     final Map<String, dynamic> manifestMap = json.decode(assetsFile);
     Iterable<String> keys = [];
     switch (type) {
-      case ToneType.PSALM:
+      case globals.psalms_prefix:
         keys = manifestMap.keys
             .where((String key) => key.contains(globals.psalms_prefix +
                 globals.separator +
-                number.toString() +
+                number +
                 globals.separator))
             .toList();
         break;
-      case ToneType.TONE:
+      case globals.tones_prefix:
         keys = manifestMap.keys
             .where((String key) => key.contains(globals.tones_prefix +
                 globals.separator +
-                number.toString() +
+                number +
                 globals.separator))
             .toList();
         break;
@@ -276,7 +262,10 @@ class _PlaytoneMainState extends State<PlaytoneMain> {
             children: [
               GestureDetector(
                   onTap: () {
-                    ScoreArguments args = ScoreArguments(type, number, key);
+                    //ScoreArguments args = ScoreArguments(type, number, key);
+                    String args =
+                        '$id${globals.separator}${key.replaceAll(globals.separator, globals.url_replacement)}';
+                    print('args: $args');
                     routerDelegate.pushPage(
                       name: '/tonescore',
                       arguments: args,
@@ -287,23 +276,9 @@ class _PlaytoneMainState extends State<PlaytoneMain> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text('Tono numero ${(++i).toString()}'),
-                        ExtendedImage.asset(
+                        Image.asset(
                           key,
                           fit: BoxFit.contain,
-                          mode: ExtendedImageMode.gesture,
-                          initGestureConfigHandler: (state) {
-                            return GestureConfig(
-                              minScale: 0.9,
-                              animationMinScale: 0.7,
-                              maxScale: 3.0,
-                              animationMaxScale: 3.5,
-                              speed: 1.0,
-                              inertialSpeed: 100.0,
-                              initialScale: 1.0,
-                              inPageView: false,
-                              initialAlignment: InitialAlignment.center,
-                            );
-                          },
                         )
                       ])),
               ElevatedButton(
@@ -363,7 +338,7 @@ class _PlaytoneMainState extends State<PlaytoneMain> {
         appBar: AppBar(
           title: Text(title),
         ),
-        body: SingleChildScrollView(
+        body: InteractiveViewer(
             child: Center(
                 child: Padding(
                     padding: EdgeInsets.symmetric(horizontal: 50),
@@ -378,20 +353,30 @@ class _PlaytoneMainState extends State<PlaytoneMain> {
 class ToneScore extends StatelessWidget {
   String _appTitle = 'Spartito';
 
-  ToneType type;
-  int number;
-  String url;
+  String id;
+  late String type;
+  late String number;
+  late String url;
 
   late BuildContext _context;
 
-  ToneScore(
-      {Key? key, required this.type, required this.number, required this.url})
-      : super(key: key) {
+  ToneScore(this.id, {Key? key}) : super(key: key) {
+    List<String> fields = id.split(globals.separator);
+    if (fields.length == 3) {
+      type = fields[0];
+      number = fields[1];
+      url = fields[2].replaceAll(globals.url_replacement, globals.separator);
+    } else {
+      type = '';
+      number = '';
+      url = '';
+    }
+    print('url: $url');
     switch (type) {
-      case ToneType.PSALM:
+      case globals.psalms_prefix:
         _appTitle += ' del Salmo numero $number';
         break;
-      case ToneType.TONE:
+      case globals.tones_prefix:
         _appTitle += ' del tono a $number';
         break;
     }
@@ -405,30 +390,16 @@ class ToneScore extends StatelessWidget {
           title: Text(_appTitle),
         ),
         body: Center(
-            child: SingleChildScrollView(
+            child: InteractiveViewer(
                 child: Padding(
                     padding: EdgeInsets.symmetric(horizontal: 50),
                     child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          ExtendedImage.asset(
+                          Image.asset(
                             url,
                             fit: BoxFit.contain,
-                            mode: ExtendedImageMode.gesture,
-                            initGestureConfigHandler: (state) {
-                              return GestureConfig(
-                                minScale: 0.9,
-                                animationMinScale: 0.7,
-                                maxScale: 3.0,
-                                animationMaxScale: 3.5,
-                                speed: 1.0,
-                                inertialSpeed: 100.0,
-                                initialScale: 1.0,
-                                inPageView: false,
-                                initialAlignment: InitialAlignment.center,
-                              );
-                            },
                           )
                         ])))));
   }
