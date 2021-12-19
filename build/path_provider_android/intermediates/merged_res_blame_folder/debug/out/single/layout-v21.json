@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/path_provider_android/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/44318f973e18fa59fe3957d8af199b21/core-1.6.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/path_provider_android/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/44318f973e18fa59fe3957d8af199b21/core-1.6.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/path_provider_android/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/44318f973e18fa59fe3957d8af199b21/core-1.6.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/path_provider_android/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/44318f973e18fa59fe3957d8af199b21/core-1.6.0/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

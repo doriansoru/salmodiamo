@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.salmodiamo"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->[:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-77
+15-->[:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-74
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->[:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-66
+16-->[:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-63
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->[:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
+17-->[:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-65
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.exoplayer:exoplayer-core:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/7ba8580a5dc5328fe787a86cb85d8be3/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:24:5-79
+18-->[com.google.android.exoplayer:exoplayer-core:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/7ba8580a5dc5328fe787a86cb85d8be3/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:24:22-76
+19
+20    <application
+21        android:name="io.flutter.app.FlutterMultiDexApplication"
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.6.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/44318f973e18fa59fe3957d8af199b21/core-1.6.0/AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/launcher_icon"
+25        android:label="salmodiamo" >
+26        <activity
+27            android:name="com.example.salmodiamo.MainActivity"
+28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+29            android:exported="true"
+30            android:hardwareAccelerated="true"
+31            android:launchMode="singleTop"
+32            android:theme="@style/LaunchTheme"
+33            android:windowSoftInputMode="adjustResize" >
+34
+35            <!--
+36                 Specifies an Android theme to apply to this Activity as soon as
+37                 the Android process has started. This theme is visible to the user
+38                 while the Flutter UI initializes. After that, this theme continues
+39                 to determine the Window background behind the Flutter UI.
+40            -->
+41            <meta-data
+42                android:name="io.flutter.embedding.android.NormalTheme"
+43                android:resource="@style/NormalTheme" />
+44
+45            <intent-filter>
+46                <action android:name="android.intent.action.MAIN" />
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+49            </intent-filter>
+50        </activity>
+51        <!--
+52             Don't delete the meta-data below.
+53             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+54        -->
+55        <meta-data
+56            android:name="flutterEmbedding"
+57            android:value="2" />
+58
+59        <receiver android:name="com.github.florent37.assets_audio_player.notification.NotificationActionReceiver" />
+59-->[:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-117
+59-->[:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/debug/AndroidManifest.xml:12:19-114
+60        <receiver android:name="com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver" >
+60-->[:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-17:20
+60-->[:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-113
+61            <intent-filter>
+61-->[:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-16:29
+62                <action android:name="android.intent.action.MEDIA_BUTTON" />
+62-->[:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-77
+62-->[:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/debug/AndroidManifest.xml:15:25-74
+63            </intent-filter>
+64        </receiver>
+65
+66        <service
+66-->[:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-29:19
+67            android:name="com.github.florent37.assets_audio_player.notification.NotificationService"
+67-->[:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-101
+68            android:enabled="true"
+68-->[:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-35
+69            android:exported="true" >
+69-->[:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-36
+70
+71            <!--
+72            <intent-filter>
+73                <action android:name="android.intent.action.MEDIA_BUTTON" />
+74            </intent-filter>
+75            -->
+76        </service>
+77
+78        <uses-library
+78-->[androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+79            android:name="androidx.window.extensions"
+79-->[androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+80            android:required="false" />
+80-->[androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+81        <uses-library
+81-->[androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+82            android:name="androidx.window.sidecar"
+82-->[androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+83            android:required="false" />
+83-->[androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+84    </application>
+85
+86</manifest>

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "map": [
+                {
+                    "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/ed98a6a130467f8df932f65b59784ba0/media-1.2.1/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    }
+                }
+            ]
+        }
+    ]
+}
