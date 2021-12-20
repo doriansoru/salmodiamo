@@ -1,0 +1,14 @@
+{
+    "psalmodiate": "Psalmodiate",
+    "select_options": "Select one of the following options to view the corresponding tones.",
+    "tones_for_psalm_number": "Tones for the Psalm number {}",
+    "tones_structure": "{} verses tones",
+    "psalm_number": "Psalm {}",
+    "show": "Show",
+    "tone_number": "Tone number {}",
+    "listen": "Listen",
+    "tones_instructions": "Tap the tone score to zoom or the button lo listen.",
+    "score": "Score",
+    "of_psalm_number": " of Psalm number {}",
+    "of_tone_number": " of the {} verses tone"
+}
