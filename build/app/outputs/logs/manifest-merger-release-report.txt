@@ -18,7 +18,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/brrre
 	android:label
 		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:4:9-35
 	android:icon
-		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:6:9-45
+		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:6:9-43
 	android:name
 		INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml
 		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:5:9-42

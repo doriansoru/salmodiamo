@@ -4216,7 +4216,7 @@ attr:activityAction:2130837504,
    layout:notification_template_part_chronometer:2131296281,
    layout:notification_template_part_time:2131296282,
    layout:toast_custom:2131296283,
-   mipmap:launcher_icon:2131361793,
+   mipmap:ic_launcher:2131361792,
    string:exo_item_list:2131492897,
    string:exo_track_bitrate:2131492898,
    string:exo_track_mono:2131492899,
@@ -4469,8 +4469,8 @@ Skipped unused resource res/layout/exo_styled_sub_settings_list_item.xml: 1280 b
 Skipped unused resource res/layout/exo_track_selection_dialog.xml: 512 bytes (replaced with small dummy file of size 104 bytes)
 Skipped unused resource res/layout-v23/exo_styled_player_control_ffwd_button.xml: 368 bytes (replaced with small dummy file of size 104 bytes)
 Skipped unused resource res/layout-v23/exo_styled_player_control_rewind_button.xml: 368 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/mipmap-mdpi-v4/ic_launcher.png: 405 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/mipmap-hdpi-v4/ic_launcher.png: 507 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/mipmap-xhdpi-v4/ic_launcher.png: 684 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/mipmap-xxhdpi-v4/ic_launcher.png: 994 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/mipmap-xxxhdpi-v4/ic_launcher.png: 1406 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/mipmap-mdpi-v4/launcher_icon.png: 3181 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/mipmap-hdpi-v4/launcher_icon.png: 6086 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/mipmap-xhdpi-v4/launcher_icon.png: 9927 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/mipmap-xxhdpi-v4/launcher_icon.png: 18535 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/mipmap-xxxhdpi-v4/launcher_icon.png: 29342 bytes (replaced with small dummy file of size 67 bytes)

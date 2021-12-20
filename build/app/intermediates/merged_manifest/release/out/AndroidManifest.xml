@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.salmodiamo"
     android:versionCode="1"
-    android:versionName="1.0.0" >
+    android:versionName="0.4.0" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -16,7 +16,7 @@
     <application
         android:name="io.flutter.app.FlutterMultiDexApplication"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-        android:icon="@mipmap/launcher_icon"
+        android:icon="@mipmap/ic_launcher"
         android:label="salmodiamo" >
         <activity
             android:name="com.example.salmodiamo.MainActivity"

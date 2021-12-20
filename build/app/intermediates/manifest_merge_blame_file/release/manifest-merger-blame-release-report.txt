@@ -2,7 +2,7 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.example.salmodiamo"
 4    android:versionCode="1"
-5    android:versionName="1.0.0" >
+5    android:versionName="0.4.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
@@ -28,8 +28,8 @@
 17-->/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:5:9-42
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 18-->[androidx.core:core:1.6.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/44318f973e18fa59fe3957d8af199b21/core-1.6.0/AndroidManifest.xml:24:18-86
-19        android:icon="@mipmap/launcher_icon"
-19-->/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:6:9-45
+19        android:icon="@mipmap/ic_launcher"
+19-->/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:6:9-43
 20        android:label="salmodiamo" >
 20-->/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:4:9-35
 21        <activity

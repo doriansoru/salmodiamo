@@ -1,4 +1,4 @@
-#Mon Dec 20 15:25:03 CET 2021
+#Mon Dec 20 16:47:55 CET 2021
 base.0=/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
