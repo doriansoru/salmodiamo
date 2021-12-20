@@ -1,2 +1,0 @@
-com/github/florent37/assets_audio_player/BuildConfig.java
- com.github.florent37.assets_audio_player.BuildConfig

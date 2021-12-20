@@ -1,15 +1,31 @@
 import 'dart:convert';
-import 'package:Salmodiamo/router/router.dart';
+import 'dart:io';
+import 'router/router.dart';
 import 'package:flutter/material.dart';
 import 'package:assets_audio_player/assets_audio_player.dart';
 import 'package:get/get.dart';
 import 'globals.dart' as globals;
+import 'package:easy_localization/easy_localization.dart';
 
 final routerDelegate = Get.put(MyRouterDelegate());
-final _AppTitle = 'Salmodiamo';
+final String _lang = Platform.localeName == 'it_IT'
+    ? 'it_IT'
+    : 'en_US'; // Returns locale string in the form 'en_US'
+String _appTitle = tr('psamodiate');
 
 void main() async {
-  runApp(Salmodiamo());
+  WidgetsFlutterBinding.ensureInitialized();
+  await EasyLocalization.ensureInitialized();
+
+  runApp(
+    EasyLocalization(
+        supportedLocales: [Locale('en', 'US'), Locale('it', 'IT')],
+        path:
+            'assets/translations', // <-- change the path of the translation files
+        fallbackLocale: Locale('it', 'IT'),
+        child: Salmodiamo()),
+  );
+  //runApp(Salmodiamo());
 }
 
 class Salmodiamo extends StatelessWidget {
@@ -21,10 +37,13 @@ class Salmodiamo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: _AppTitle,
+      title: tr('psalmodiate'),
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      localizationsDelegates: context.localizationDelegates,
+      supportedLocales: context.supportedLocales,
+      locale: Locale(_lang),
       home: Router(
         routerDelegate: routerDelegate,
         backButtonDispatcher: RootBackButtonDispatcher(),
@@ -41,129 +60,141 @@ class SalmodiamoMain extends StatefulWidget {
 }
 
 class _SalmodiamoMainState extends State<SalmodiamoMain> {
-  late String _psalmsValue = globals.psalm + '1';
+  late String _psalmsValue = tr('psalm_number', args: ['1']);
   @override
   Widget build(BuildContext context) {
     var psalms = <String>[];
     for (int i = 0; i < 150; i++) {
-      psalms.add('Salmo ${(i + 1).toString()}');
+      psalms.add(tr('psalm_number', args: [(i + 1).toString()]));
     }
 
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(_AppTitle),
-      ),
-      body: Center(
-        child: Padding(
-          padding: EdgeInsets.symmetric(horizontal: 50),
-          child: InteractiveViewer(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.start,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                AspectRatio(
-                  aspectRatio: 500 / 30,
-                  child: Image(
-                    image: new AssetImage('assets/images/png/notes.png'),
-                    alignment: Alignment.center,
-                    fit: BoxFit.fitWidth,
-                    repeat: ImageRepeat.repeatX,
-                  ),
+    return MaterialApp(
+        title: tr('psalmodiate'),
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        localizationsDelegates: context.localizationDelegates,
+        supportedLocales: context.supportedLocales,
+        locale: Locale(_lang),
+        home: Scaffold(
+          appBar: AppBar(title: Text(tr('psalmodiate'))),
+          body: Center(
+            child: Padding(
+              padding: EdgeInsets.symmetric(horizontal: 50),
+              child: InteractiveViewer(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    AspectRatio(
+                      aspectRatio: 500 / 30,
+                      child: Image(
+                        image: new AssetImage('assets/images/png/notes.png'),
+                        alignment: Alignment.center,
+                        fit: BoxFit.fitWidth,
+                        repeat: ImageRepeat.repeatX,
+                      ),
+                    ),
+                    SizedBox(height: 10),
+                    Text(
+                      tr('psalmodiate'),
+                      style: Theme.of(context).textTheme.headline4,
+                    ),
+                    SizedBox(height: 20),
+                    Text(
+                      tr('select_options'),
+                      style: Theme.of(context).textTheme.bodyText1,
+                    ),
+                    SizedBox(height: 20),
+                    /*Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: <Widget>[
+                          DropdownButton<String>(
+                            value: _psalmsValue,
+                            icon: const Icon(Icons.arrow_downward_rounded),
+                            elevation: 16,
+                            onChanged: (String? newValue) {
+                              _psalmsValue = newValue!;
+                              setState(() {
+                                _psalmsValue;
+                              });
+                            },
+                            items: psalms
+                                .map<DropdownMenuItem<String>>((String value) {
+                              return DropdownMenuItem<String>(
+                                value: value,
+                                child: Text(value),
+                              );
+                            }).toList(),
+                          ),
+                          SizedBox(width: 10),
+                          ElevatedButton(
+                            child: Text(tr('show')),
+                            onPressed: () {
+                              //Extracts the number of the psalm
+                              RegExp r = new RegExp(r"[^\d]*(\d)*[^\d]*");
+                              String? psalm_number = r
+                                  .firstMatch(_psalmsValue)
+                                  ?.group(1)
+                                  .toString();
+                              String args =
+                                  '${globals.psalms_prefix}${globals.field_separator}$psalm_number';
+                              routerDelegate.pushPage(
+                                name: '/playtone',
+                                arguments: args,
+                              );
+                            },
+                          ),
+                        ]),
+                    SizedBox(height: 50),*/
+                    Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: <Widget>[
+                          ElevatedButton(
+                            child: Text(tr('tones_structure', args: ['2'])),
+                            onPressed: () {
+                              String args =
+                                  '${globals.tones_prefix}${globals.field_separator}2';
+                              routerDelegate.pushPage(
+                                name: '/playtone',
+                                arguments: args,
+                              );
+                            },
+                          ),
+                          SizedBox(width: 10),
+                          ElevatedButton(
+                            child: Text(tr('tones_structure', args: ['3'])),
+                            onPressed: () {
+                              String args =
+                                  '${globals.tones_prefix}${globals.field_separator}3';
+                              routerDelegate.pushPage(
+                                name: '/playtone',
+                                arguments: args,
+                              );
+                            },
+                          ),
+                          SizedBox(width: 10),
+                          ElevatedButton(
+                            child: Text(tr('tones_structure', args: ['4'])),
+                            onPressed: () {
+                              String args =
+                                  '${globals.tones_prefix}${globals.field_separator}4';
+                              routerDelegate.pushPage(
+                                name: '/playtone',
+                                arguments: args,
+                              );
+                            },
+                          ),
+                        ]),
+                    SizedBox(height: 50),
+                  ],
                 ),
-                SizedBox(height: 10),
-                Text(
-                  _AppTitle,
-                  style: Theme.of(context).textTheme.headline4,
-                ),
-                SizedBox(height: 20),
-                Text(
-                  'Seleziona una delle opzioni seguenti per visualizzare i toni corrispondenti.',
-                  style: Theme.of(context).textTheme.bodyText1,
-                ),
-                SizedBox(height: 20),
-                Row(
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: <Widget>[
-                      DropdownButton<String>(
-                        value: _psalmsValue,
-                        icon: const Icon(Icons.arrow_downward_rounded),
-                        elevation: 16,
-                        onChanged: (String? newValue) {
-                          _psalmsValue = newValue!;
-                          setState(() {
-                            _psalmsValue;
-                          });
-                        },
-                        items: psalms
-                            .map<DropdownMenuItem<String>>((String value) {
-                          return DropdownMenuItem<String>(
-                            value: value,
-                            child: Text(value),
-                          );
-                        }).toList(),
-                      ),
-                      SizedBox(width: 10),
-                      ElevatedButton(
-                        child: Text('Visualizza'),
-                        onPressed: () {
-                          String args =
-                              '${globals.psalms_prefix}${globals.separator}${_psalmsValue.replaceAll(globals.psalm, '')}';
-                          routerDelegate.pushPage(
-                            name: '/playtone',
-                            arguments: args,
-                          );
-                        },
-                      ),
-                    ]),
-                SizedBox(height: 50),
-                Row(
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: <Widget>[
-                      ElevatedButton(
-                        child: Text(globals.tones + '2'),
-                        onPressed: () {
-                          String args =
-                              '${globals.tones_prefix}${globals.separator}2';
-                          routerDelegate.pushPage(
-                            name: '/playtone',
-                            arguments: args,
-                          );
-                        },
-                      ),
-                      SizedBox(width: 10),
-                      ElevatedButton(
-                        child: Text(globals.tones + '3'),
-                        onPressed: () {
-                          String args =
-                              '${globals.tones_prefix}${globals.separator}3';
-                          routerDelegate.pushPage(
-                            name: '/playtone',
-                            arguments: args,
-                          );
-                        },
-                      ),
-                      SizedBox(width: 10),
-                      ElevatedButton(
-                        child: Text(globals.tones + '4'),
-                        onPressed: () {
-                          String args =
-                              '${globals.tones_prefix}${globals.separator}4';
-                          routerDelegate.pushPage(
-                            name: '/playtone',
-                            arguments: args,
-                          );
-                        },
-                      ),
-                    ]),
-                SizedBox(height: 50),
-              ],
+              ),
             ),
           ),
-        ),
-      ),
-    );
+        ));
   }
 }
 
@@ -176,7 +207,7 @@ class Playtone extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: _AppTitle,
+        title: tr('psalmodiate'),
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
@@ -204,7 +235,7 @@ class _PlaytoneMainState extends State<PlaytoneMain> {
   List<Widget> _content = [];
 
   _PlaytoneMainState(this._id) {
-    List<String> fields = _id.split(globals.separator);
+    List<String> fields = _id.split(globals.field_separator);
     if (fields.length == 2) {
       _type = fields[0];
       _number = fields[1];
@@ -214,10 +245,10 @@ class _PlaytoneMainState extends State<PlaytoneMain> {
     }
     switch (_type) {
       case globals.psalms_prefix:
-        _title = 'Toni per il Salmo numero ${_number}';
+        _title = tr('tones_for_psalm_number', args: [_number]);
         break;
       case globals.tones_prefix:
-        _title = 'Toni a ${_number}';
+        _title = tr('tones_structure', args: [_number]);
         break;
     }
   }
@@ -235,17 +266,17 @@ class _PlaytoneMainState extends State<PlaytoneMain> {
       case globals.psalms_prefix:
         keys = manifestMap.keys
             .where((String key) => key.contains(globals.psalms_prefix +
-                globals.separator +
+                globals.filename_separator +
                 _number +
-                globals.separator))
+                globals.filename_separator))
             .toList();
         break;
       case globals.tones_prefix:
         keys = manifestMap.keys
             .where((String key) => key.contains(globals.tones_prefix +
-                globals.separator +
+                globals.filename_separator +
                 _number +
-                globals.separator))
+                globals.filename_separator))
             .toList();
         break;
     }
@@ -259,9 +290,7 @@ class _PlaytoneMainState extends State<PlaytoneMain> {
               GestureDetector(
                   onTap: () {
                     //ScoreArguments args = ScoreArguments(type, number, key);
-                    String args =
-                        '$_id${globals.separator}${key.replaceAll(globals.separator, globals.url_replacement)}';
-                    print('args: $args');
+                    String args = '$_id${globals.field_separator}$key';
                     routerDelegate.pushPage(
                       name: '/tonescore',
                       arguments: args,
@@ -271,14 +300,14 @@ class _PlaytoneMainState extends State<PlaytoneMain> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('Tono numero ${(++i).toString()}'),
+                        Text(tr('tone_number', args: [(++i).toString()])),
                         Image.asset(
                           key,
                           fit: BoxFit.contain,
                         )
                       ])),
               ElevatedButton(
-                  child: Text('Ascolta'),
+                  child: Text(tr('listen')),
                   onPressed: () {
                     AssetsAudioPlayer.newPlayer().open(
                       Audio(key.replaceAll(
@@ -311,7 +340,7 @@ class _PlaytoneMainState extends State<PlaytoneMain> {
     ));
     _content.add(SizedBox(height: 20));
     _content.add(Text(
-      'Tocca lo spartito del tono per ingrandirlo o il pulsante sottostante per ascoltarlo.',
+      tr('tones_instructions'),
       style: Theme.of(context).textTheme.bodyText1,
     ));
     _content.add(SizedBox(height: 20));
@@ -347,33 +376,33 @@ class _PlaytoneMainState extends State<PlaytoneMain> {
 }
 
 class ToneScore extends StatelessWidget {
-  String _title = 'Spartito';
+  String _title = tr('score');
 
   String id;
   late String type;
   late String number;
-  late String url;
+  late String assetname;
 
   late BuildContext _context;
 
   ToneScore(this.id, {Key? key}) : super(key: key) {
-    List<String> fields = id.split(globals.separator);
+    List<String> fields = id.split(globals.field_separator);
     if (fields.length == 3) {
       type = fields[0];
       number = fields[1];
-      url = fields[2].replaceAll(globals.url_replacement, globals.separator);
+      assetname = fields[2]
+          .replaceAll(globals.field_separator, globals.filename_separator);
     } else {
       type = '';
       number = '';
-      url = '';
+      assetname = '';
     }
-    print('url: $url');
     switch (type) {
       case globals.psalms_prefix:
-        _title += ' del Salmo numero $number';
+        _title += tr('of_psalm_number', args: [number]);
         break;
       case globals.tones_prefix:
-        _title += ' del tono a $number';
+        _title += tr('of_tone_number', args: [number]);
         break;
     }
   }
@@ -394,7 +423,7 @@ class ToneScore extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Image.asset(
-                            url,
+                            assetname,
                             fit: BoxFit.contain,
                           )
                         ])))));
