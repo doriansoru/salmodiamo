@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/shared_preferences_android/intermediates/res/merged/release/values-am/values-am.xml",
+            "outputFile": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/shared_preferences_android/intermediates/merged_res/release/values-am/values-am.xml",
             "map": [
                 {
-                    "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/44318f973e18fa59fe3957d8af199b21/core-1.6.0/res/values-am/values-am.xml",
+                    "source": "/home/brrrellu/.gradle/caches/transforms-3/8dbff1916f85d22e54b9235c28563623/transformed/core-1.6.0/res/values-am/values-am.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -19,7 +19,7 @@
             "outputFile": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/shared_preferences_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-am/values-am.xml",
             "map": [
                 {
-                    "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/44318f973e18fa59fe3957d8af199b21/core-1.6.0/res/values-am/values-am.xml",
+                    "source": "/home/brrrellu/.gradle/caches/transforms-3/8dbff1916f85d22e54b9235c28563623/transformed/core-1.6.0/res/values-am/values-am.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

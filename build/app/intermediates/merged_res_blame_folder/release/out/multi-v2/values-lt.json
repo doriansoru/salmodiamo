@@ -4,7 +4,7 @@
             "outputFile": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-lt/values-lt.xml",
             "map": [
                 {
-                    "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/values-lt/values-lt.xml",
+                    "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/values-lt/values-lt.xml",
                     "from": {
                         "startLines": "2,8,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/44318f973e18fa59fe3957d8af199b21/core-1.6.0/res/values-lt/values-lt.xml",
+                    "source": "/home/brrrellu/.gradle/caches/transforms-3/8dbff1916f85d22e54b9235c28563623/transformed/core-1.6.0/res/values-lt/values-lt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,98 +1,100 @@
 -- Merging decision tree log ---
 application
-INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:3:4-33:19
-MERGED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:11:5-30:19
-MERGED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:11:5-30:19
-MERGED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
-MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/5ec5b306aa72d073c4e635849279c4a0/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/5ec5b306aa72d073c4e635849279c4a0/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
-MERGED from [androidx.core:core:1.6.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/44318f973e18fa59fe3957d8af199b21/core-1.6.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.6.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/44318f973e18fa59fe3957d8af199b21/core-1.6.0/AndroidManifest.xml:24:5-89
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/b4cbed359232adf967203eced548b2b1/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/b4cbed359232adf967203eced548b2b1/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/bf224960c448cf8df3cc05170c7e1480/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/bf224960c448cf8df3cc05170c7e1480/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:4:4-35:19
+MERGED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-34:19
+MERGED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-34:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-3/fbf020492b9432309a754cc33af60a79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-3/fbf020492b9432309a754cc33af60a79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/brrrellu/.gradle/caches/transforms-3/121af3cd0610c206bb71abc6dbb1759e/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/brrrellu/.gradle/caches/transforms-3/121af3cd0610c206bb71abc6dbb1759e/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.6.0] /home/brrrellu/.gradle/caches/transforms-3/8dbff1916f85d22e54b9235c28563623/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /home/brrrellu/.gradle/caches/transforms-3/8dbff1916f85d22e54b9235c28563623/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/brrrellu/.gradle/caches/transforms-3/8b2be3951c0d7cf4386a8aff208d7c06/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/brrrellu/.gradle/caches/transforms-3/8b2be3951c0d7cf4386a8aff208d7c06/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/brrrellu/.gradle/caches/transforms-3/9a1bc712ff763963e5545f5d60feef55/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/brrrellu/.gradle/caches/transforms-3/9a1bc712ff763963e5545f5d60feef55/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.6.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/44318f973e18fa59fe3957d8af199b21/core-1.6.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.6.0] /home/brrrellu/.gradle/caches/transforms-3/8dbff1916f85d22e54b9235c28563623/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:4:9-35
+		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:5:9-35
 	android:icon
-		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:6:9-43
+		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:7:9-43
 	android:name
 		INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:5:9-42
+		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:6:9-42
 manifest
-ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:1:1-34:12
-INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:1:1-34:12
-INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:1:1-34:12
-INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:1:1-34:12
-MERGED from [:shared_preferences_android] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/shared_preferences_android/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
-MERGED from [:fluttertoast] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/fluttertoast/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
-MERGED from [:path_provider_android] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/path_provider_android/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
-MERGED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:2:1-32:12
-MERGED from [:assets_audio_player_web] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player_web/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.multidex:multidex:2.0.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/3da111bde076e303363d16d29de2194c/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.window:window-java:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/7d8400aa5211d2fa7376d36c4ae0a810/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
-MERGED from [com.google.android.exoplayer:exoplayer:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/7b60bdb7f814333a1485b99051b7734a/jetified-exoplayer-2.14.1/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/386ae10e840d8e4eb7e6a16c47e9e26a/jetified-exoplayer-hls-2.14.1/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/a6c5cc3fb521acd2cea4411f7023ccb1/jetified-exoplayer-dash-2.14.1/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/89d38b165ef25ab2b5a1aa84ddf6a49a/jetified-exoplayer-smoothstreaming-2.14.1/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-ui:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.media:media:1.2.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/ed98a6a130467f8df932f65b59784ba0/media-1.2.1/AndroidManifest.xml:17:1-24:12
-MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/5ec5b306aa72d073c4e635849279c4a0/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
-MERGED from [androidx.fragment:fragment:1.1.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/c9cdaf4182134f09911a36f189490385/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/c6117c0f7fba49d21091617534c26b18/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/4e5dedc033bc6040f4c2a113747d6d00/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/8911a3ecd6aa12e0e84bb43db8e5d4d9/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/a5ae3ab78b74c69f56a442d27493f455/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/c51007774f4fd6d14ba4adbca0679a8a/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/8add393c18bb8b0f40364f4f0122baed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/768d7c72bc9337442454f519bc0c0b13/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/8db5528b8917a6b3ecc4bb5ea8f580ac/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/7f9d9c2876e4e636b2504b120228a1e3/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/1581d94240a89695ab1ef29acea08d4f/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/4ae13e51980df922166fca9b76823c39/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/f8347eebbb40a7a16c766592439b20a2/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/01eb5f62bb2e45b2a7854583faeba91e/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/58e09ead2cf759009c8bef110ef1b534/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.6.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/44318f973e18fa59fe3957d8af199b21/core-1.6.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/c25433a590f7a31e3ed68edc7c15d87d/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/9f9eeb4a2ce6b7f0e04914e9e53d43f8/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/51ee241fc071c840c1958154b88ad1d9/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/af8dbfafff109cbe2626d29a640ba8ef/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.tracing:tracing:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/353d713371cc45bbe32e571325b51724/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/b710947f069db7c2146a453e7a90ae5f/jetified-exoplayer-rtsp-2.14.1/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-transformer:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/f0fed33d97f64fbf1430264aea48c2e8/jetified-exoplayer-transformer-2.14.1/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/7ba8580a5dc5328fe787a86cb85d8be3/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:17:1-26:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/b4cbed359232adf967203eced548b2b1/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/70bea5afd9f41b25d8c289b9b2e4156b/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/bf224960c448cf8df3cc05170c7e1480/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/e2012c2cdbc12a8f160bd51545cf11d1/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/013c3e58cf792ffe5f6ef66893e8dadf/jetified-exoplayer-extractor-2.14.1/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/034340f8a9b5dc0b86d5ba5443a7ff4a/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/175f4d36784449670c627698e9607853/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/fb92da9c2dd107fc56f3a9f27e43e30b/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/92e6b919cde2985708bccc9bc7166477/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/82fd4d19557b31ac3138f0f6319ebc20/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/7d60a0771a7c66a549fabc9ce4dcc3e5/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/b02adddc7a94bc91462fb2a6725ea8cb/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/e8947babe14030ab36b6f95be15600ef/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:1:1-34:12
-INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:1:1-34:12
-INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:1:1-34:12
+ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:1:1-36:12
+INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:1:1-36:12
+INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:1:1-36:12
+INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:1:1-36:12
+MERGED from [:shared_preferences_android] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:fluttertoast] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_android] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-36:12
+MERGED from [:assets_audio_player_web] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player_web/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-3/49091eede8392777fe7e08d2220ec626/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-3/fbf020492b9432309a754cc33af60a79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/be48ce7a196a3a7decb192539c81aa57/transformed/jetified-exoplayer-2.14.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/07b6db97cba3f26e03d53785aba81aa9/transformed/jetified-exoplayer-hls-2.14.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/11ed8e867ffa4cdcba0bdf20a8bfd951/transformed/jetified-exoplayer-dash-2.14.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/712f6fe68355f5c68a41f1ea5ca20634/transformed/jetified-exoplayer-smoothstreaming-2.14.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.2.1] /home/brrrellu/.gradle/caches/transforms-3/00925eb68a4f1a9d8618542865fe9db8/transformed/media-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/brrrellu/.gradle/caches/transforms-3/121af3cd0610c206bb71abc6dbb1759e/transformed/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/brrrellu/.gradle/caches/transforms-3/5b40499d39e7ded7eb9f8fae3e865e36/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/75b9b9d73bce6872a4a626ad404c0c21/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/82d0e176a61562370563d6a9a2f92a11/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/1a973b205e70f685dae72954bc6638fc/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/47591eff896c68f57bda6dd6a6f2fa83/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/68449dcd65e4e05c51bc292b14fbb2d2/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/b1a390756905b6c9cac47404f92103d6/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/brrrellu/.gradle/caches/transforms-3/e05d5d9bb9ec0ca43d2f8863d53ba49c/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/e66e2c2ab2ee4c5db857c46389189545/transformed/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/77cec9e1126e3e00a6c198cff0c100d2/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/bd8a31754e08a9798bde9714383ffa2e/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/498a49cbd39e80aeac92ca99bb76aa23/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/16da1b46c9d222c647f8d8c075aa7a19/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/fad57d8e56f6d7364ea017d3dd95e937/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/1c4598f8c2142d55d911ff6a088c7d82/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /home/brrrellu/.gradle/caches/transforms-3/8dbff1916f85d22e54b9235c28563623/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/brrrellu/.gradle/caches/transforms-3/740995ecebccc1f55eca5c03c21ba6ac/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/b622aaf5f3d4623007cca3eac351d20a/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/brrrellu/.gradle/caches/transforms-3/f0db47ec2dcef4cf55624887b58c6c74/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/brrrellu/.gradle/caches/transforms-3/db804bdc462387e0422225cfc7edb30e/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/0e3419ca8f3464bc5a87f60687392558/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/35dd84fb4a928d1496b6913b890c4669/transformed/jetified-exoplayer-rtsp-2.14.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-transformer:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/58e4d645161b80b9290bf7b8eb680ead/transformed/jetified-exoplayer-transformer-2.14.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/208657c68730c5833ec6476b88baa84a/transformed/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:17:1-26:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/brrrellu/.gradle/caches/transforms-3/8b2be3951c0d7cf4386a8aff208d7c06/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/brrrellu/.gradle/caches/transforms-3/5c806a7cf808d537fc85edac72c0bbe1/transformed/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/brrrellu/.gradle/caches/transforms-3/9a1bc712ff763963e5545f5d60feef55/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/brrrellu/.gradle/caches/transforms-3/c1adb50bfcdc9033bc202d6b6f31d8f1/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/09d929f72fd2c1b4af11766478bc3b19/transformed/jetified-exoplayer-extractor-2.14.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/a7b9cbb2edab3df5a3a030891678d9b5/transformed/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/brrrellu/.gradle/caches/transforms-3/80f0adf260ae535b3710cdca4a9e6d51/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/1e754d76353970ce9bb27019f0663cf8/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/e29992ee275ef2721b95e3b7d191bb02/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/c07b824331037cb248ef99fd738ff54b/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/63d0b50ea4738d6b1039f75287d14622/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/d09edcf043bd6712b9378274fa07b88f/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/brrrellu/.gradle/caches/transforms-3/4380bc5b2f670ebd9ca5c09a74d3bacc/transformed/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/brrrellu/.gradle/caches/transforms-3/7e60755042933271ed0797cd055d6b8b/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:1:1-36:12
+INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:1:1-36:12
+INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:1:1-36:12
 	package
-		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:2:5-37
+		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:1:1-36:12
 		INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:2:2-48
 	android:versionCode
 		INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:1:1-36:12
 		INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -100,110 +102,110 @@ uses-sdk
 INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml
-MERGED from [:shared_preferences_android] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/shared_preferences_android/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences_android] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/shared_preferences_android/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
-MERGED from [:fluttertoast] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/fluttertoast/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
-MERGED from [:fluttertoast] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/fluttertoast/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/path_provider_android/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/path_provider_android/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
-MERGED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
-MERGED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
-MERGED from [:assets_audio_player_web] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player_web/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
-MERGED from [:assets_audio_player_web] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player_web/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.multidex:multidex:2.0.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/3da111bde076e303363d16d29de2194c/multidex-2.0.1/AndroidManifest.xml:20:5-43
-MERGED from [androidx.multidex:multidex:2.0.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/3da111bde076e303363d16d29de2194c/multidex-2.0.1/AndroidManifest.xml:20:5-43
-MERGED from [androidx.window:window-java:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/7d8400aa5211d2fa7376d36c4ae0a810/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.window:window-java:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/7d8400aa5211d2fa7376d36c4ae0a810/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/7b60bdb7f814333a1485b99051b7734a/jetified-exoplayer-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/7b60bdb7f814333a1485b99051b7734a/jetified-exoplayer-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/386ae10e840d8e4eb7e6a16c47e9e26a/jetified-exoplayer-hls-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/386ae10e840d8e4eb7e6a16c47e9e26a/jetified-exoplayer-hls-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/a6c5cc3fb521acd2cea4411f7023ccb1/jetified-exoplayer-dash-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/a6c5cc3fb521acd2cea4411f7023ccb1/jetified-exoplayer-dash-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/89d38b165ef25ab2b5a1aa84ddf6a49a/jetified-exoplayer-smoothstreaming-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/89d38b165ef25ab2b5a1aa84ddf6a49a/jetified-exoplayer-smoothstreaming-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-ui:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-ui:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media:media:1.2.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/ed98a6a130467f8df932f65b59784ba0/media-1.2.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media:media:1.2.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/ed98a6a130467f8df932f65b59784ba0/media-1.2.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/5ec5b306aa72d073c4e635849279c4a0/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/5ec5b306aa72d073c4e635849279c4a0/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
-MERGED from [androidx.fragment:fragment:1.1.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/c9cdaf4182134f09911a36f189490385/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/c9cdaf4182134f09911a36f189490385/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/c6117c0f7fba49d21091617534c26b18/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/c6117c0f7fba49d21091617534c26b18/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/4e5dedc033bc6040f4c2a113747d6d00/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/4e5dedc033bc6040f4c2a113747d6d00/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/8911a3ecd6aa12e0e84bb43db8e5d4d9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/8911a3ecd6aa12e0e84bb43db8e5d4d9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/a5ae3ab78b74c69f56a442d27493f455/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/a5ae3ab78b74c69f56a442d27493f455/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/c51007774f4fd6d14ba4adbca0679a8a/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/c51007774f4fd6d14ba4adbca0679a8a/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/8add393c18bb8b0f40364f4f0122baed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/8add393c18bb8b0f40364f4f0122baed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/768d7c72bc9337442454f519bc0c0b13/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/768d7c72bc9337442454f519bc0c0b13/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/8db5528b8917a6b3ecc4bb5ea8f580ac/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/8db5528b8917a6b3ecc4bb5ea8f580ac/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/7f9d9c2876e4e636b2504b120228a1e3/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/7f9d9c2876e4e636b2504b120228a1e3/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/1581d94240a89695ab1ef29acea08d4f/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/1581d94240a89695ab1ef29acea08d4f/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/4ae13e51980df922166fca9b76823c39/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/4ae13e51980df922166fca9b76823c39/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/f8347eebbb40a7a16c766592439b20a2/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/f8347eebbb40a7a16c766592439b20a2/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/01eb5f62bb2e45b2a7854583faeba91e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/01eb5f62bb2e45b2a7854583faeba91e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/58e09ead2cf759009c8bef110ef1b534/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/58e09ead2cf759009c8bef110ef1b534/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.6.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/44318f973e18fa59fe3957d8af199b21/core-1.6.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.6.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/44318f973e18fa59fe3957d8af199b21/core-1.6.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/c25433a590f7a31e3ed68edc7c15d87d/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/c25433a590f7a31e3ed68edc7c15d87d/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/9f9eeb4a2ce6b7f0e04914e9e53d43f8/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/9f9eeb4a2ce6b7f0e04914e9e53d43f8/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/51ee241fc071c840c1958154b88ad1d9/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/51ee241fc071c840c1958154b88ad1d9/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/af8dbfafff109cbe2626d29a640ba8ef/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/af8dbfafff109cbe2626d29a640ba8ef/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/353d713371cc45bbe32e571325b51724/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/353d713371cc45bbe32e571325b51724/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/b710947f069db7c2146a453e7a90ae5f/jetified-exoplayer-rtsp-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/b710947f069db7c2146a453e7a90ae5f/jetified-exoplayer-rtsp-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-transformer:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/f0fed33d97f64fbf1430264aea48c2e8/jetified-exoplayer-transformer-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-transformer:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/f0fed33d97f64fbf1430264aea48c2e8/jetified-exoplayer-transformer-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/7ba8580a5dc5328fe787a86cb85d8be3/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/7ba8580a5dc5328fe787a86cb85d8be3/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/b4cbed359232adf967203eced548b2b1/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/b4cbed359232adf967203eced548b2b1/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/70bea5afd9f41b25d8c289b9b2e4156b/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/70bea5afd9f41b25d8c289b9b2e4156b/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/bf224960c448cf8df3cc05170c7e1480/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/bf224960c448cf8df3cc05170c7e1480/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/e2012c2cdbc12a8f160bd51545cf11d1/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/e2012c2cdbc12a8f160bd51545cf11d1/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/013c3e58cf792ffe5f6ef66893e8dadf/jetified-exoplayer-extractor-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/013c3e58cf792ffe5f6ef66893e8dadf/jetified-exoplayer-extractor-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/034340f8a9b5dc0b86d5ba5443a7ff4a/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/034340f8a9b5dc0b86d5ba5443a7ff4a/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/175f4d36784449670c627698e9607853/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/175f4d36784449670c627698e9607853/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/fb92da9c2dd107fc56f3a9f27e43e30b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/fb92da9c2dd107fc56f3a9f27e43e30b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/92e6b919cde2985708bccc9bc7166477/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/92e6b919cde2985708bccc9bc7166477/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/82fd4d19557b31ac3138f0f6319ebc20/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/82fd4d19557b31ac3138f0f6319ebc20/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/7d60a0771a7c66a549fabc9ce4dcc3e5/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/7d60a0771a7c66a549fabc9ce4dcc3e5/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/b02adddc7a94bc91462fb2a6725ea8cb/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/b02adddc7a94bc91462fb2a6725ea8cb/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/e8947babe14030ab36b6f95be15600ef/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/e8947babe14030ab36b6f95be15600ef/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [:shared_preferences_android] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:assets_audio_player_web] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player_web/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:assets_audio_player_web] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player_web/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-3/49091eede8392777fe7e08d2220ec626/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-3/49091eede8392777fe7e08d2220ec626/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-3/fbf020492b9432309a754cc33af60a79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-3/fbf020492b9432309a754cc33af60a79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/be48ce7a196a3a7decb192539c81aa57/transformed/jetified-exoplayer-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/be48ce7a196a3a7decb192539c81aa57/transformed/jetified-exoplayer-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/07b6db97cba3f26e03d53785aba81aa9/transformed/jetified-exoplayer-hls-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/07b6db97cba3f26e03d53785aba81aa9/transformed/jetified-exoplayer-hls-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/11ed8e867ffa4cdcba0bdf20a8bfd951/transformed/jetified-exoplayer-dash-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/11ed8e867ffa4cdcba0bdf20a8bfd951/transformed/jetified-exoplayer-dash-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/712f6fe68355f5c68a41f1ea5ca20634/transformed/jetified-exoplayer-smoothstreaming-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/712f6fe68355f5c68a41f1ea5ca20634/transformed/jetified-exoplayer-smoothstreaming-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.2.1] /home/brrrellu/.gradle/caches/transforms-3/00925eb68a4f1a9d8618542865fe9db8/transformed/media-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.2.1] /home/brrrellu/.gradle/caches/transforms-3/00925eb68a4f1a9d8618542865fe9db8/transformed/media-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/brrrellu/.gradle/caches/transforms-3/121af3cd0610c206bb71abc6dbb1759e/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/brrrellu/.gradle/caches/transforms-3/121af3cd0610c206bb71abc6dbb1759e/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/brrrellu/.gradle/caches/transforms-3/5b40499d39e7ded7eb9f8fae3e865e36/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/brrrellu/.gradle/caches/transforms-3/5b40499d39e7ded7eb9f8fae3e865e36/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/75b9b9d73bce6872a4a626ad404c0c21/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/75b9b9d73bce6872a4a626ad404c0c21/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/82d0e176a61562370563d6a9a2f92a11/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/82d0e176a61562370563d6a9a2f92a11/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/1a973b205e70f685dae72954bc6638fc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/1a973b205e70f685dae72954bc6638fc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/47591eff896c68f57bda6dd6a6f2fa83/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/47591eff896c68f57bda6dd6a6f2fa83/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/68449dcd65e4e05c51bc292b14fbb2d2/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/68449dcd65e4e05c51bc292b14fbb2d2/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/b1a390756905b6c9cac47404f92103d6/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/b1a390756905b6c9cac47404f92103d6/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/brrrellu/.gradle/caches/transforms-3/e05d5d9bb9ec0ca43d2f8863d53ba49c/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/brrrellu/.gradle/caches/transforms-3/e05d5d9bb9ec0ca43d2f8863d53ba49c/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/e66e2c2ab2ee4c5db857c46389189545/transformed/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/e66e2c2ab2ee4c5db857c46389189545/transformed/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/77cec9e1126e3e00a6c198cff0c100d2/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/77cec9e1126e3e00a6c198cff0c100d2/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/bd8a31754e08a9798bde9714383ffa2e/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/bd8a31754e08a9798bde9714383ffa2e/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/498a49cbd39e80aeac92ca99bb76aa23/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/498a49cbd39e80aeac92ca99bb76aa23/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/16da1b46c9d222c647f8d8c075aa7a19/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/16da1b46c9d222c647f8d8c075aa7a19/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/fad57d8e56f6d7364ea017d3dd95e937/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/fad57d8e56f6d7364ea017d3dd95e937/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/1c4598f8c2142d55d911ff6a088c7d82/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/1c4598f8c2142d55d911ff6a088c7d82/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /home/brrrellu/.gradle/caches/transforms-3/8dbff1916f85d22e54b9235c28563623/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /home/brrrellu/.gradle/caches/transforms-3/8dbff1916f85d22e54b9235c28563623/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/brrrellu/.gradle/caches/transforms-3/740995ecebccc1f55eca5c03c21ba6ac/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/brrrellu/.gradle/caches/transforms-3/740995ecebccc1f55eca5c03c21ba6ac/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/b622aaf5f3d4623007cca3eac351d20a/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/b622aaf5f3d4623007cca3eac351d20a/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/brrrellu/.gradle/caches/transforms-3/f0db47ec2dcef4cf55624887b58c6c74/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/brrrellu/.gradle/caches/transforms-3/f0db47ec2dcef4cf55624887b58c6c74/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/brrrellu/.gradle/caches/transforms-3/db804bdc462387e0422225cfc7edb30e/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/brrrellu/.gradle/caches/transforms-3/db804bdc462387e0422225cfc7edb30e/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/0e3419ca8f3464bc5a87f60687392558/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/0e3419ca8f3464bc5a87f60687392558/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/35dd84fb4a928d1496b6913b890c4669/transformed/jetified-exoplayer-rtsp-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/35dd84fb4a928d1496b6913b890c4669/transformed/jetified-exoplayer-rtsp-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-transformer:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/58e4d645161b80b9290bf7b8eb680ead/transformed/jetified-exoplayer-transformer-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-transformer:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/58e4d645161b80b9290bf7b8eb680ead/transformed/jetified-exoplayer-transformer-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/208657c68730c5833ec6476b88baa84a/transformed/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/208657c68730c5833ec6476b88baa84a/transformed/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/brrrellu/.gradle/caches/transforms-3/8b2be3951c0d7cf4386a8aff208d7c06/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/brrrellu/.gradle/caches/transforms-3/8b2be3951c0d7cf4386a8aff208d7c06/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/brrrellu/.gradle/caches/transforms-3/5c806a7cf808d537fc85edac72c0bbe1/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/brrrellu/.gradle/caches/transforms-3/5c806a7cf808d537fc85edac72c0bbe1/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/brrrellu/.gradle/caches/transforms-3/9a1bc712ff763963e5545f5d60feef55/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/brrrellu/.gradle/caches/transforms-3/9a1bc712ff763963e5545f5d60feef55/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/brrrellu/.gradle/caches/transforms-3/c1adb50bfcdc9033bc202d6b6f31d8f1/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/brrrellu/.gradle/caches/transforms-3/c1adb50bfcdc9033bc202d6b6f31d8f1/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/09d929f72fd2c1b4af11766478bc3b19/transformed/jetified-exoplayer-extractor-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/09d929f72fd2c1b4af11766478bc3b19/transformed/jetified-exoplayer-extractor-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/a7b9cbb2edab3df5a3a030891678d9b5/transformed/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/a7b9cbb2edab3df5a3a030891678d9b5/transformed/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/brrrellu/.gradle/caches/transforms-3/80f0adf260ae535b3710cdca4a9e6d51/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/brrrellu/.gradle/caches/transforms-3/80f0adf260ae535b3710cdca4a9e6d51/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/1e754d76353970ce9bb27019f0663cf8/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/1e754d76353970ce9bb27019f0663cf8/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/e29992ee275ef2721b95e3b7d191bb02/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/e29992ee275ef2721b95e3b7d191bb02/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/c07b824331037cb248ef99fd738ff54b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/c07b824331037cb248ef99fd738ff54b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/63d0b50ea4738d6b1039f75287d14622/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/63d0b50ea4738d6b1039f75287d14622/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/d09edcf043bd6712b9378274fa07b88f/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/d09edcf043bd6712b9378274fa07b88f/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] /home/brrrellu/.gradle/caches/transforms-3/4380bc5b2f670ebd9ca5c09a74d3bacc/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/brrrellu/.gradle/caches/transforms-3/4380bc5b2f670ebd9ca5c09a74d3bacc/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/brrrellu/.gradle/caches/transforms-3/7e60755042933271ed0797cd055d6b8b/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/brrrellu/.gradle/caches/transforms-3/7e60755042933271ed0797cd055d6b8b/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -215,92 +217,98 @@ INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/a
 		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml
 activity#com.example.salmodiamo.MainActivity
-ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:7:9-27:20
+ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:8:9-29:20
+	tools:node
+		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:10:4-22
 	android:launchMode
-		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:10:13-43
+		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:12:13-43
 	android:hardwareAccelerated
-		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:13:13-47
+		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:15:13-47
 	android:windowSoftInputMode
-		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:14:13-55
+		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:16:13-55
 	android:exported
 		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:9:13-36
 	android:configChanges
-		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:12:13-163
+		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:14:13-163
 	android:theme
-		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:11:13-47
+		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:13:13-47
 	android:name
-		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:8:13-41
+		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:11:13-41
 meta-data#io.flutter.embedding.android.NormalTheme
-ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:19:13-22:17
+ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:21:13-24:17
 	android:resource
-		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:21:15-52
+		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:23:15-52
 	android:name
-		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:20:15-70
+		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:22:15-70
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:23:13-26:29
+ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:25:13-28:29
 action#android.intent.action.MAIN
-ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:24:17-68
+ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:26:17-68
 	android:name
-		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:24:25-66
+		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:25:17-76
+ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:27:17-76
 	android:name
-		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:25:27-74
+		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:27:27-74
 meta-data#flutterEmbedding
-ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:30:9-32:33
+ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:32:9-34:33
 	android:value
-		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:32:13-30
+		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:34:13-30
 	android:name
-		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:31:13-44
+		ADDED from /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml:33:13-44
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:7:5-77
+ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-77
 	android:name
-		ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:7:22-74
+		ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:7:22-74
 uses-permission#android.permission.VIBRATE
-ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:8:5-66
+ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-66
 	android:name
-		ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:8:22-63
+		ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-63
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:9:5-68
+ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-68
 	android:name
-		ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:9:22-65
+		ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-65
 receiver#com.github.florent37.assets_audio_player.notification.NotificationActionReceiver
-ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:12:9-117
-	android:name
-		ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:12:19-114
-receiver#com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver
-ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:13:9-17:20
-	android:name
-		ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:13:19-113
-intent-filter#action:name:android.intent.action.MEDIA_BUTTON
-ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:14:13-16:29
-action#android.intent.action.MEDIA_BUTTON
-ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:15:17-77
-	android:name
-		ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:15:25-74
-service#com.github.florent37.assets_audio_player.notification.NotificationService
-ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:19:9-29:19
-	android:enabled
-		ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:21:13-35
+ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-14:39
 	android:exported
-		ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:22:13-36
+		ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-36
 	android:name
-		ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:20:13-101
+		ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-108
+receiver#com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver
+ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-21:20
+	android:exported
+		ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-36
+	android:name
+		ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-107
+intent-filter#action:name:android.intent.action.MEDIA_BUTTON
+ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-20:29
+action#android.intent.action.MEDIA_BUTTON
+ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:19:25-74
+service#com.github.florent37.assets_audio_player.notification.NotificationService
+ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-33:19
+	android:enabled
+		ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-35
+	android:exported
+		ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from [:assets_audio_player] /home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-101
 uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+ADDED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-3/fbf020492b9432309a754cc33af60a79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
 	android:required
-		ADDED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-3/fbf020492b9432309a754cc33af60a79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-3/fbf020492b9432309a754cc33af60a79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
 uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+ADDED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-3/fbf020492b9432309a754cc33af60a79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
 	android:required
-		ADDED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-3/fbf020492b9432309a754cc33af60a79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/brrrellu/.gradle/caches/transforms-3/fbf020492b9432309a754cc33af60a79/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/7ba8580a5dc5328fe787a86cb85d8be3/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/034340f8a9b5dc0b86d5ba5443a7ff4a/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/034340f8a9b5dc0b86d5ba5443a7ff4a/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:24:5-79
+ADDED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/208657c68730c5833ec6476b88baa84a/transformed/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/a7b9cbb2edab3df5a3a030891678d9b5/transformed/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/a7b9cbb2edab3df5a3a030891678d9b5/transformed/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /home/brrrellu/.gradle/caches/transforms-2/files-2.1/7ba8580a5dc5328fe787a86cb85d8be3/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:24:22-76
+		ADDED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /home/brrrellu/.gradle/caches/transforms-3/208657c68730c5833ec6476b88baa84a/transformed/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:24:22-76

@@ -96,9 +96,7 @@ Referenced Strings:
   .ac4
   .adts
   .amr
-  .classes
   .cmf
-  .dex
   .ec3
   .flac
   .flv
@@ -127,7 +125,6 @@ Referenced Strings:
   .wave
   .webm
   .webvtt
-  .zip
   /JOC
   /android_asset/
   /proc/self/fd
@@ -183,7 +180,6 @@ Referenced Strings:
   A7000plus
   A7010a48
   A7020a48
-  A::
   AAC
   AACDecoder
   AACH
@@ -328,7 +324,6 @@ Referenced Strings:
   Aura_Note_2
   Avantgarde
   B
-  B:
   BA
   BB
   BD
@@ -400,7 +395,6 @@ Referenced Strings:
   C6603
   C6606
   C6616
-  C::
   CA
   CANCELLED
   CAPT
@@ -518,7 +512,6 @@ Referenced Strings:
   DATA_DISK_CACHE
   DATETIME
   DAVC
-  DD
   DE
   DECODE_DATA
   DECREASE
@@ -551,7 +544,6 @@ Referenced Strings:
   DartExecutor
   DartMessenger
   DashMediaSource
-  Data:
   DateTime
   DateTimeDigitized
   DateTimeOriginal
@@ -603,7 +595,6 @@ Referenced Strings:
   DvbDecoder
   DvbParser
   E5643
-  E:
   EBM
   EC
   EDGE_TO_EDGE
@@ -619,6 +610,7 @@ Referenced Strings:
   EMAIL_ADDRESS
   EMPTY
   ENCODE
+  ENQUEUE_FAILED
   ER
   ES
   ET
@@ -879,19 +871,11 @@ Referenced Strings:
   HttpUrlFetcher
   HttpUtil
   Humour
-  I
   ID
   ID3
   IDM
   IE
   IFD
-  II
-  IIFII
-  IIFIII
-  IIII
-  IIIIIIII
-  IIZ
-  IJZ
   IL
   IM
   IMMEDIATE
@@ -959,21 +943,10 @@ Referenced Strings:
   IntegerArrayPool
   InteroperabilityIFDPointer
   InteroperabilityIndex
-  InvalidNullConversion
   IsLive
   Item
-  J
   JE
   JGZ
-  JIJ
-  JIZ
-  JJ
-  JJI
-  JJJFF
-  JJJIZIZZ
-  JJJJ
-  JJJJJ
-  JJZ
   JM
   JO
   JOC
@@ -1028,6 +1001,7 @@ Referenced Strings:
   LI
   LIGHT
   LIGHT_IMPACT
+  LIST_EMPTY
   LK
   LOCAL
   LOCALE
@@ -1066,7 +1040,6 @@ Referenced Strings:
   LruBitmapPool
   M04
   M5c
-  M::
   MA
   MC
   MD
@@ -1143,8 +1116,6 @@ Referenced Strings:
   MouseCursorChannel
   Mp4WebvttDecoder
   MpdParser
-  MultiDex
-  MultiDex.lock
   Musical
   NA
   NAME
@@ -1192,7 +1163,6 @@ Referenced Strings:
   NotificationManagerCompat
   NotificationService.kt
   Number
-  O:
   OECF
   OFFER_FAILED
   OFFER_SUCCESS
@@ -1238,6 +1208,7 @@ Referenced Strings:
   OMX.realtek.video.decoder.tunneled
   OMX.rk.video_decoder.avc
   ON_ANY
+  ON_CLOSE_HANDLER_INVOKED
   ON_CREATE
   ON_DESTROY
   ON_PAUSE
@@ -1259,29 +1230,8 @@ Referenced Strings:
   Orientation
   Other
   Override
-  P10:
-  P11:
-  P12:
-  P13:
-  P14:
-  P15:
-  P16:
-  P17:
-  P18:
-  P19:
-  P20:
-  P21:
-  P22:
-  P2:
-  P3:
-  P4:
-  P5:
   P681
-  P6:
-  P7:
   P85
-  P8:
-  P9:
   PA
   PARKING
   PART
@@ -1383,7 +1333,6 @@ Referenced Strings:
   QualityLevel
   R
   R9
-  R:
   RAIJIN
   RAW
   RE
@@ -1402,6 +1351,7 @@ Referenced Strings:
   RESOURCE_DISK_CACHE
   RESUMED
   RESUME_TOKEN
+  RETRY_ATOMIC
   REUSABLE_CLAIMED
   RIGHT
   RMFragment
@@ -1429,7 +1379,6 @@ Referenced Strings:
   RequestTracker
   ResolutionUnit
   ResourceLoader
-  ResourceType:
   RestorationChannel
   RestrictedApi
   Retro
@@ -1439,7 +1388,6 @@ Referenced Strings:
   RowsPerStrip
   RtpH264Reader
   S
-  S:
   SA
   SB
   SBYTE
@@ -1609,14 +1557,12 @@ Referenced Strings:
   SystemUiMode.leanBack
   SystemUiOverlay.bottom
   SystemUiOverlay.top
-  T:
   TAG
   TAL
   TALB
   TAP
   TBPM
   TC
-  TCHI
   TCMP
   TCOM
   TCON
@@ -1648,7 +1594,6 @@ Referenced Strings:
   TRANSFORMED
   TRCK
   TRK
-  TResource:
   TSO2
   TSOA
   TSOC
@@ -1726,7 +1671,6 @@ Referenced Strings:
   TrackGroup
   Trailer
   Trance
-  Transcode:
   TransferFunction
   Tribal
   TtmlDecoder
@@ -1775,11 +1719,9 @@ Referenced Strings:
   Url
   UserComment
   Util
-  V0:
   V1
   V23GB
   V5
-  V:
   VALUE
   VC
   VD_PLATFORM_VIEW
@@ -1882,7 +1824,6 @@ Referenced Strings:
   Xiaomi
   XingSeeker
   Xmp
-  Y:
   YCbCrCoefficients
   YCbCrPositioning
   YCbCrSubSampling
@@ -1893,15 +1834,9 @@ Referenced Strings:
   Z
   Z12_PRO
   Z80
-  Z:
   ZA
-  ZD
-  ZI
-  ZIZ
   ZM
   ZW
-  ZZ
-  ZZZZ
   _
   _HLS_msn
   _HLS_part
@@ -1957,8 +1892,6 @@ Referenced Strings:
   alignment
   all
   allScroll
-  allowFreeFormInput
-  allowedDataTypes
   alternate
   alwaysUse24HourFormat
   amp
@@ -2279,11 +2212,8 @@ Referenced Strings:
   chartreuse
   chi
   chocolate
-  choices
   circle
   class
-  classes
-  classes.dex
   classes_to_restore
   clear
   clearFocus
@@ -2294,7 +2224,6 @@ Referenced Strings:
   clipboard
   cmn
   codePoint
-  code_cache
   codecId
   codecPrivate
   codecs
@@ -2334,10 +2263,6 @@ Referenced Strings:
   com.google.android.exoplayer2.ext.rtm...
   com.google.android.exoplayer2.ext.vp9...
   com.google.android.exoplayer2.mediaco...
-  com.google.android.exoplayer2.source....
-  com.google.android.exoplayer2.source....
-  com.google.android.exoplayer2.source....
-  com.google.android.exoplayer2.source....
   com.google.common.base.Strings
   com.microsoft.playready
   com.sony.dtv.hardware.panel.qfhd
@@ -2374,7 +2299,6 @@ Referenced Strings:
   cornsilk
   coroutine
   countryName
-  crc
   create
   createAsync
   createCodec:
@@ -2404,7 +2328,6 @@ Referenced Strings:
   d2
   dac3
   dac4
-  dalvik.system.DexPathList$Element
   dangal
   dangalFHD
   dangalUHD
@@ -2464,11 +2387,6 @@ Referenced Strings:
   destroy_engine_with_activity
   deviceId
   deviceState
-  dex.crc.
-  dex.number
-  dex.time.
-  dexElements
-  dexElementsSuppressedExceptions
   digits
   dimen
   dimgray
@@ -2551,7 +2469,6 @@ Referenced Strings:
   f801
   fa
   fa01
-  failed
   false
   familyName
   feature
@@ -2622,8 +2539,6 @@ Referenced Strings:
   fugu
   fullStreetAddress
   g
-  g.a.c.a.b$c
-  g.a.c.a.i
   gainsboro
   gee
   gender
@@ -2690,9 +2605,6 @@ Referenced Strings:
   guava.concurrent.generate_cancellatio...
   gzip
   h
-  h.s.k.a.a
-  h.t.d.a
-  h.t.e.a
   hak
   handled
   hb2000
@@ -2715,7 +2627,6 @@ Referenced Strings:
   hrv
   hsn
   htc_e56ml_dtul
-  html
   http
   http.agent
   http://dashif.org/guidelines/trickmode
@@ -2775,7 +2686,6 @@ Referenced Strings:
   io.flutter.embedding.android.NormalTheme
   io.flutter.embedding.android.OldGenHe...
   io.flutter.embedding.android.SplashSc...
-  io.flutter.plugins.GeneratedPluginReg...
   iris60
   is
   isAvailable
@@ -2823,7 +2733,6 @@ Referenced Strings:
   java.util.Map$Entry
   java.util.Set
   java.util.concurrent.ForkJoinPool
-  java.vm.version
   jflte
   ji
   job
@@ -2873,6 +2782,7 @@ Referenced Strings:
   kotlin.collections.Map.Entry
   kotlin.collections.Set
   kotlin.coroutines.jvm.internal.BaseCo...
+  kotlin.coroutines.jvm.internal.a
   kotlin.internal.JRE7PlatformImplement...
   kotlin.internal.JRE8PlatformImplement...
   kotlin.jvm.functions.
@@ -2891,7 +2801,6 @@ Referenced Strings:
   kotlinx.coroutines.fast.service.loader
   kotlinx.coroutines.flow.AbstractFlow
   kotlinx.coroutines.internal.StackTrac...
-  kotlinx.coroutines.internal.y
   kotlinx.coroutines.io.parallelism
   kotlinx.coroutines.scheduler
   kotlinx.coroutines.scheduler.blocking...
@@ -2959,25 +2868,20 @@ Referenced Strings:
   m
   mAccessibilityDelegate
   mChildNodeIds
-  mDexs
   mFactory2
-  mFiles
   mH
   mMinHeight
   mMinWidth
   mNextServedView
   mOnKeyListener
-  mPaths
   mServedView
   mToast
-  mZips
   mac
   machuca
   magenta
   magnolia
   main
   makeBackgroundTaskQueue
-  makeDexElements
   manning
   mao
   mappedTrackInfo
@@ -3044,7 +2948,6 @@ Referenced Strings:
   msg
   mspr:pro
   multiRowAlign
-  multidex.version
   mv
   my
   namath
@@ -3102,7 +3005,6 @@ Referenced Strings:
   nv
   o
   obscureText
-  observe
   oemFeature
   oemFeature.bounds
   off
@@ -3191,8 +3093,6 @@ Referenced Strings:
   parkedWorkersStack
   password
   path
-  pathElements
-  pathList
   pause
   pauseOnUnplug
   pauseOnUnplugPlayOnPlug
@@ -3324,7 +3224,6 @@ Referenced Strings:
   resource
   respectSilentMode
   result
-  resultKey
   resumeAfterInterruption
   resumeOthersPlayersAfterDone
   rgb
@@ -3488,7 +3387,6 @@ Referenced Strings:
   styling
   subFrameRate
   subtitle
-  succeeded
   suffix
   suggestedPresentationDelay
   sun.misc.JavaLangAccess
@@ -3544,7 +3442,6 @@ Referenced Strings:
   timeShiftBufferDepth
   times
   timescale
-  timestamp
   timestampAdjuster
   title
   to
@@ -3667,7 +3564,6 @@ Referenced Strings:
   wvtt
   x
   x:xmpmeta
-  xml
   xx
   yellow
   yellowgreen
@@ -3994,6 +3890,7 @@ style:ExoMediaButton_Previous:2131558405 => [style:ExoMediaButton:2131558400, dr
 style:ExoMediaButton_Rewind:2131558406 => [style:ExoMediaButton:2131558400, drawable:exo_controls_rewind:2131034123, string:exo_controls_rewind_description:2131492882]
 style:ExoMediaButton_VR:2131558407 => [style:ExoMediaButton:2131558400, drawable:exo_controls_vr:2131034126, string:exo_controls_vr_description:2131492890]
 style:ExoStyledControls_Button:2131558409 => [style:ExoStyledControls:2131558408, dimen:exo_icon_horizontal_margin:2130968588]
+style:ExoStyledControls_ButtonText:2131558427 => [style:ExoStyledControls:2131558408, dimen:exo_icon_text_size:2130968592, color:exo_white:2130903048]
 style:ExoStyledControls_Button_Bottom:2131558410 => [style:ExoStyledControls_Button:2131558409, style:ExoStyledControls:2131558408, dimen:exo_small_icon_width:2130968606, dimen:exo_small_icon_height:2130968602, dimen:exo_small_icon_horizontal_margin:2130968603, dimen:exo_small_icon_padding_horizontal:2130968604, dimen:exo_small_icon_padding_vertical:2130968605]
 style:ExoStyledControls_Button_Bottom_AudioTrack:2131558411 => [style:ExoStyledControls_Button_Bottom:2131558410, style:ExoStyledControls_Button:2131558409, style:ExoStyledControls:2131558408, drawable:exo_styled_controls_audiotrack:2131034170, string:exo_track_selection_title_audio:2131492907]
 style:ExoStyledControls_Button_Bottom_CC:2131558412 => [style:ExoStyledControls_Button_Bottom:2131558410, style:ExoStyledControls_Button:2131558409, style:ExoStyledControls:2131558408, drawable:exo_styled_controls_subtitle_off:2131034189, string:exo_controls_cc_disabled_description:2131492864]
@@ -4011,7 +3908,6 @@ style:ExoStyledControls_Button_Center_Next:2131558423 => [style:ExoStyledControl
 style:ExoStyledControls_Button_Center_PlayPause:2131558424 => [style:ExoStyledControls_Button_Center:2131558421, style:ExoStyledControls_Button:2131558409, style:ExoStyledControls:2131558408, drawable:exo_styled_controls_play:2131034179, string:exo_controls_play_description:2131492875, dimen:exo_icon_padding:2130968589]
 style:ExoStyledControls_Button_Center_Previous:2131558425 => [style:ExoStyledControls_Button_Center:2131558421, style:ExoStyledControls_Button:2131558409, style:ExoStyledControls:2131558408, drawable:exo_styled_controls_previous:2131034180, string:exo_controls_previous_description:2131492878, dimen:exo_icon_padding:2130968589]
 style:ExoStyledControls_Button_Center_RewWithAmount:2131558426 => [style:ExoStyledControls_Button_Center:2131558421, style:ExoStyledControls_Button:2131558409, style:ExoStyledControls:2131558408, drawable:exo_styled_controls_rewind:2131034184, dimen:exo_icon_padding_bottom:2130968590, style:ExoStyledControls_ButtonText:2131558427]
-style:ExoStyledControls_ButtonText:2131558427 => [style:ExoStyledControls:2131558408, dimen:exo_icon_text_size:2130968592, color:exo_white:2130903048]
 style:ExoStyledControls_TimeBar:2131558428 => [style:ExoStyledControls:2131558408, dimen:exo_styled_progress_bar_height:2130968612, dimen:exo_styled_progress_touch_target_height:2130968617, dimen:exo_styled_progress_enabled_thumb_size:2130968614, dimen:exo_styled_progress_dragged_thumb_size:2130968613, dimen:exo_styled_progress_layout_height:2130968615]
 style:ExoStyledControls_TimeText:2131558429 => [style:ExoStyledControls:2131558408]
 style:ExoStyledControls_TimeText_Duration:2131558430 => [style:ExoStyledControls_TimeText:2131558429, style:ExoStyledControls:2131558408, color:exo_white_opacity_70:2130903049, string:exo_controls_time_placeholder:2131492889]
@@ -4029,7 +3925,6 @@ style:TextAppearance_Compat_Notification_Time_Media:2131558442 => [style:TextApp
 style:TextAppearance_Compat_Notification_Title_Media:2131558444 => [style:TextAppearance_Compat_Notification_Title:2131558443, style:TextAppearance_Compat_Notification:2131558435, style:TextAppearance_Compat:-1, style:TextAppearance:-1, color:primary_text_default_material_dark:2130903053]
 style:Widget_Compat_NotificationActionContainer:2131558445 => [drawable:notification_action_background:2131034193]
 style:Widget_Compat_NotificationActionText:2131558446 => [color:androidx_core_secondary_text_default_material_light:2130903041, dimen:notification_action_text_size:2130968625]
-
 The root reachable resources are:
 attr:activityAction:2130837504,
    attr:activityName:2130837505,
@@ -4457,20 +4352,19 @@ Skipped unused resource res/drawable-anydpi-v21/exo_icon_shuffle_off.xml: 724 by
 Skipped unused resource res/drawable-anydpi-v21/exo_icon_shuffle_on.xml: 724 bytes (replaced with small dummy file of size 104 bytes)
 Skipped unused resource res/font/roboto_medium_numbers.ttf: 3316 bytes (replaced with small dummy file of size 0 bytes)
 Skipped unused resource res/layout/custom_dialog.xml: 612 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout/exo_player_control_view.xml: 2628 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/exo_player_control_view.xml: 2584 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v17/exo_player_control_view.xml: 2628 bytes (replaced with small dummy file of size 104 bytes)
 Skipped unused resource res/layout/exo_player_view.xml: 1868 bytes (replaced with small dummy file of size 104 bytes)
 Skipped unused resource res/layout/exo_styled_player_control_ffwd_button.xml: 784 bytes (replaced with small dummy file of size 104 bytes)
 Skipped unused resource res/layout/exo_styled_player_control_rewind_button.xml: 784 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout/exo_styled_player_control_view.xml: 4036 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/exo_styled_player_control_view.xml: 3828 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v17/exo_styled_player_control_view.xml: 4036 bytes (replaced with small dummy file of size 104 bytes)
 Skipped unused resource res/layout/exo_styled_player_view.xml: 2128 bytes (replaced with small dummy file of size 104 bytes)
 Skipped unused resource res/layout/exo_styled_settings_list.xml: 512 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout/exo_styled_settings_list_item.xml: 1584 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout/exo_styled_sub_settings_list_item.xml: 1280 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/exo_styled_settings_list_item.xml: 1412 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v17/exo_styled_settings_list_item.xml: 1584 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/exo_styled_sub_settings_list_item.xml: 1144 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v17/exo_styled_sub_settings_list_item.xml: 1280 bytes (replaced with small dummy file of size 104 bytes)
 Skipped unused resource res/layout/exo_track_selection_dialog.xml: 512 bytes (replaced with small dummy file of size 104 bytes)
 Skipped unused resource res/layout-v23/exo_styled_player_control_ffwd_button.xml: 368 bytes (replaced with small dummy file of size 104 bytes)
 Skipped unused resource res/layout-v23/exo_styled_player_control_rewind_button.xml: 368 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/mipmap-mdpi-v4/launcher_icon.png: 3181 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/mipmap-hdpi-v4/launcher_icon.png: 6086 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/mipmap-xhdpi-v4/launcher_icon.png: 9927 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/mipmap-xxhdpi-v4/launcher_icon.png: 18535 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/mipmap-xxxhdpi-v4/launcher_icon.png: 29342 bytes (replaced with small dummy file of size 67 bytes)

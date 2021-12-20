@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/incremental/mergeReleaseResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/44318f973e18fa59fe3957d8af199b21/core-1.6.0/res/values-v21/values-v21.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,173,237,304,368,484,610,736,864,1036",
-                        "endLines": "2,3,4,5,6,7,8,9,12,17",
-                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "168,232,299,363,479,605,731,859,1031,1383"
-                    },
-                    "to": {
-                        "startLines": "2,4,5,6,12,13,20,24,28,31",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,232,296,363,714,830,1287,1581,1876,2048",
-                        "endLines": "2,4,5,6,12,13,20,24,30,35",
-                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "168,291,358,422,825,951,1408,1704,2043,2395"
-                    }
-                },
-                {
-                    "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/ed98a6a130467f8df932f65b59784ba0/media-1.2.1/res/values-v21/values-v21.xml",
+                    "source": "/home/brrrellu/.gradle/caches/transforms-3/00925eb68a4f1a9d8618542865fe9db8/transformed/media-1.2.1/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",
@@ -42,7 +23,26 @@
                     }
                 },
                 {
-                    "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/values-v21/values-v21.xml",
+                    "source": "/home/brrrellu/.gradle/caches/transforms-3/8dbff1916f85d22e54b9235c28563623/transformed/core-1.6.0/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,237,304,368,484,610,736,864,1036",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "168,232,299,363,479,605,731,859,1031,1383"
+                    },
+                    "to": {
+                        "startLines": "2,4,5,6,12,13,20,24,28,31",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,232,296,363,714,830,1287,1581,1876,2048",
+                        "endLines": "2,4,5,6,12,13,20,24,30,35",
+                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "168,291,358,422,825,951,1408,1704,2043,2395"
+                    }
+                },
+                {
+                    "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -63,29 +63,10 @@
             ]
         },
         {
-            "outputFile": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/values-v21/values-v21.xml",
+            "outputFile": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/incremental/mergeReleaseResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/44318f973e18fa59fe3957d8af199b21/core-1.6.0/res/values-v21/values-v21.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,173,237,304,368,484,610,736,864,1036",
-                        "endLines": "2,3,4,5,6,7,8,9,12,17",
-                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "168,232,299,363,479,605,731,859,1031,1383"
-                    },
-                    "to": {
-                        "startLines": "2,4,5,6,12,13,20,24,28,31",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,232,296,363,714,830,1287,1581,1876,2048",
-                        "endLines": "2,4,5,6,12,13,20,24,30,35",
-                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "168,291,358,422,825,951,1408,1704,2043,2395"
-                    }
-                },
-                {
-                    "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/ed98a6a130467f8df932f65b59784ba0/media-1.2.1/res/values-v21/values-v21.xml",
+                    "source": "/home/brrrellu/.gradle/caches/transforms-3/00925eb68a4f1a9d8618542865fe9db8/transformed/media-1.2.1/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",
@@ -104,7 +85,26 @@
                     }
                 },
                 {
-                    "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/values-v21/values-v21.xml",
+                    "source": "/home/brrrellu/.gradle/caches/transforms-3/8dbff1916f85d22e54b9235c28563623/transformed/core-1.6.0/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,237,304,368,484,610,736,864,1036",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "168,232,299,363,479,605,731,859,1031,1383"
+                    },
+                    "to": {
+                        "startLines": "2,4,5,6,12,13,20,24,28,31",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,232,296,363,714,830,1287,1581,1876,2048",
+                        "endLines": "2,4,5,6,12,13,20,24,30,35",
+                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "168,291,358,422,825,951,1408,1704,2043,2395"
+                    }
+                },
+                {
+                    "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

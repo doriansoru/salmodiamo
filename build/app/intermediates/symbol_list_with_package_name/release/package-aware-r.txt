@@ -458,7 +458,6 @@ layout notification_template_part_chronometer
 layout notification_template_part_time
 layout toast_custom
 mipmap ic_launcher
-mipmap launcher_icon
 plurals exo_controls_fastforward_by_amount_description
 plurals exo_controls_rewind_by_amount_description
 string exo_controls_cc_disabled_description

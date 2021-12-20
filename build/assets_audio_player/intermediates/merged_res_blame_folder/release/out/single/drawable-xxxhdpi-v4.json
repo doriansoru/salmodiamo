@@ -1,78 +1,78 @@
 [
     {
-        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/drawable-xxxhdpi-v4/exo_ic_check.png",
-        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_check.png"
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/drawable-xxxhdpi-v4/exo_ic_default_album_image.png",
+        "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_default_album_image.png"
     },
     {
-        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/drawable-xxxhdpi-v4/exo_ic_audiotrack.png",
-        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_audiotrack.png"
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/drawable-xxxhdpi-v4/exo_icon_circular_play.png",
+        "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_icon_circular_play.png"
     },
     {
-        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/drawable-xxxhdpi-v4/exo_ic_skip_previous.png",
-        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_skip_previous.png"
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/drawable-xxxhdpi-v4/exo_ic_fullscreen_exit.png",
+        "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_fullscreen_exit.png"
     },
     {
-        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/drawable-xxxhdpi-v4/exo_ic_skip_next.png",
-        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_skip_next.png"
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/drawable-xxxhdpi-v4/exo_ic_subtitle_off.png",
+        "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_subtitle_off.png"
     },
     {
-        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/drawable-xxxhdpi-v4/exo_ic_fullscreen_enter.png",
-        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_fullscreen_enter.png"
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/drawable-xxxhdpi-v4/exo_ic_chevron_left.png",
+        "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_chevron_left.png"
     },
     {
-        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/drawable-xxxhdpi-v4/exo_ic_settings.png",
-        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_settings.png"
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/drawable-xxxhdpi-v4/exo_ic_rewind.png",
+        "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_rewind.png"
     },
     {
-        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/drawable-xxxhdpi-v4/exo_ic_rewind.png",
-        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_rewind.png"
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/drawable-xxxhdpi-v4/exo_ic_check.png",
+        "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_check.png"
     },
     {
-        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/drawable-xxxhdpi-v4/exo_ic_subtitle_off.png",
-        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_subtitle_off.png"
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/drawable-xxxhdpi-v4/exo_ic_fullscreen_enter.png",
+        "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_fullscreen_enter.png"
     },
     {
-        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/drawable-xxxhdpi-v4/exo_ic_forward.png",
-        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_forward.png"
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/drawable-xxxhdpi-v4/exo_ic_audiotrack.png",
+        "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_audiotrack.png"
     },
     {
-        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/drawable-xxxhdpi-v4/exo_ic_subtitle_on.png",
-        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_subtitle_on.png"
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/drawable-xxxhdpi-v4/exo_ic_play_circle_filled.png",
+        "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_play_circle_filled.png"
     },
     {
-        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/drawable-xxxhdpi-v4/exo_ic_chevron_right.png",
-        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_chevron_right.png"
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/drawable-xxxhdpi-v4/exo_ic_forward.png",
+        "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_forward.png"
     },
     {
-        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/drawable-xxxhdpi-v4/exo_ic_chevron_left.png",
-        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_chevron_left.png"
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/drawable-xxxhdpi-v4/exo_ic_skip_next.png",
+        "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_skip_next.png"
     },
     {
-        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/drawable-xxxhdpi-v4/exo_ic_speed.png",
-        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_speed.png"
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/drawable-xxxhdpi-v4/exo_ic_skip_previous.png",
+        "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_skip_previous.png"
     },
     {
-        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/drawable-xxxhdpi-v4/exo_ic_play_circle_filled.png",
-        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_play_circle_filled.png"
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/drawable-xxxhdpi-v4/exo_ic_pause_circle_filled.png",
+        "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_pause_circle_filled.png"
     },
     {
-        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/drawable-xxxhdpi-v4/exo_ic_default_album_image.png",
-        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_default_album_image.png"
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/drawable-xxxhdpi-v4/exo_ic_settings.png",
+        "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_settings.png"
     },
     {
-        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/drawable-xxxhdpi-v4/exo_edit_mode_logo.png",
-        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_edit_mode_logo.png"
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/drawable-xxxhdpi-v4/exo_edit_mode_logo.png",
+        "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_edit_mode_logo.png"
     },
     {
-        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/drawable-xxxhdpi-v4/exo_icon_circular_play.png",
-        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_icon_circular_play.png"
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/drawable-xxxhdpi-v4/exo_ic_speed.png",
+        "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_speed.png"
     },
     {
-        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/drawable-xxxhdpi-v4/exo_ic_fullscreen_exit.png",
-        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_fullscreen_exit.png"
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/drawable-xxxhdpi-v4/exo_ic_chevron_right.png",
+        "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_chevron_right.png"
     },
     {
-        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/drawable-xxxhdpi-v4/exo_ic_pause_circle_filled.png",
-        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_pause_circle_filled.png"
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/drawable-xxxhdpi-v4/exo_ic_subtitle_on.png",
+        "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/drawable-xxxhdpi-v4/exo_ic_subtitle_on.png"
     }
 ]

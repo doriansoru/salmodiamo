@@ -5,7 +5,7 @@
     android:versionName="0.4.0" >
 
     <uses-sdk
-        android:minSdkVersion="19"
+        android:minSdkVersion="16"
         android:targetSdkVersion="31" />
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
@@ -14,7 +14,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name="io.flutter.app.FlutterMultiDexApplication"
+        android:name="android.app.Application"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:icon="@mipmap/ic_launcher"
         android:label="salmodiamo" >
@@ -51,8 +51,12 @@
             android:name="flutterEmbedding"
             android:value="2" />
 
-        <receiver android:name="com.github.florent37.assets_audio_player.notification.NotificationActionReceiver" />
-        <receiver android:name="com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver" >
+        <receiver
+            android:name="com.github.florent37.assets_audio_player.notification.NotificationActionReceiver"
+            android:exported="true" />
+        <receiver
+            android:name="com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MEDIA_BUTTON" />
             </intent-filter>

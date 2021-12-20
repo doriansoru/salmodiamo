@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/layout-v23/exo_styled_player_control_ffwd_button.xml",
-        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/layout-v23/exo_styled_player_control_ffwd_button.xml"
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/layout-v23/exo_styled_player_control_rewind_button.xml",
+        "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/layout-v23/exo_styled_player_control_rewind_button.xml"
     },
     {
-        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/res/merged/release/layout-v23/exo_styled_player_control_rewind_button.xml",
-        "source": "/home/brrrellu/.gradle/caches/transforms-2/files-2.1/1b3cabdbb865bb77c74cf7665af01140/jetified-exoplayer-ui-2.14.1/res/layout-v23/exo_styled_player_control_rewind_button.xml"
+        "merged": "/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/build/assets_audio_player/intermediates/merged_res/release/layout-v23/exo_styled_player_control_ffwd_button.xml",
+        "source": "/home/brrrellu/.gradle/caches/transforms-3/1d38390a51ce082c3a4acfad3d301666/transformed/jetified-exoplayer-ui-2.14.1/res/layout-v23/exo_styled_player_control_ffwd_button.xml"
     }
 ]

@@ -1,0 +1,125 @@
+> Task :app:compileFlutterBuildDebug
+> Task :app:packLibsflutterBuildDebug UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :assets_audio_player:preBuild UP-TO-DATE
+> Task :assets_audio_player:preDebugBuild UP-TO-DATE
+> Task :assets_audio_player_web:preBuild UP-TO-DATE
+> Task :assets_audio_player_web:preDebugBuild UP-TO-DATE
+> Task :assets_audio_player_web:compileDebugAidl NO-SOURCE
+> Task :assets_audio_player:compileDebugAidl NO-SOURCE
+> Task :fluttertoast:preBuild UP-TO-DATE
+> Task :fluttertoast:preDebugBuild UP-TO-DATE
+> Task :fluttertoast:compileDebugAidl NO-SOURCE
+> Task :path_provider_android:preBuild UP-TO-DATE
+> Task :path_provider_android:preDebugBuild UP-TO-DATE
+> Task :path_provider_android:compileDebugAidl NO-SOURCE
+> Task :shared_preferences_android:preBuild UP-TO-DATE
+> Task :shared_preferences_android:preDebugBuild UP-TO-DATE
+> Task :shared_preferences_android:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :assets_audio_player:packageDebugRenderscript NO-SOURCE
+> Task :assets_audio_player_web:packageDebugRenderscript NO-SOURCE
+> Task :fluttertoast:packageDebugRenderscript NO-SOURCE
+> Task :path_provider_android:packageDebugRenderscript NO-SOURCE
+> Task :shared_preferences_android:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :assets_audio_player:writeDebugAarMetadata UP-TO-DATE
+> Task :assets_audio_player_web:writeDebugAarMetadata UP-TO-DATE
+> Task :fluttertoast:writeDebugAarMetadata UP-TO-DATE
+> Task :path_provider_android:writeDebugAarMetadata UP-TO-DATE
+> Task :shared_preferences_android:writeDebugAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:cleanMergeDebugAssets
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :assets_audio_player:mergeDebugShaders UP-TO-DATE
+> Task :assets_audio_player:compileDebugShaders NO-SOURCE
+> Task :assets_audio_player:generateDebugAssets UP-TO-DATE
+> Task :assets_audio_player:packageDebugAssets UP-TO-DATE
+> Task :assets_audio_player_web:mergeDebugShaders UP-TO-DATE
+> Task :assets_audio_player_web:compileDebugShaders NO-SOURCE
+> Task :assets_audio_player_web:generateDebugAssets UP-TO-DATE
+> Task :assets_audio_player_web:packageDebugAssets UP-TO-DATE
+> Task :fluttertoast:mergeDebugShaders UP-TO-DATE
+> Task :fluttertoast:compileDebugShaders NO-SOURCE
+> Task :fluttertoast:generateDebugAssets UP-TO-DATE
+> Task :fluttertoast:packageDebugAssets UP-TO-DATE
+> Task :path_provider_android:mergeDebugShaders UP-TO-DATE
+> Task :path_provider_android:compileDebugShaders NO-SOURCE
+> Task :path_provider_android:generateDebugAssets UP-TO-DATE
+> Task :path_provider_android:packageDebugAssets UP-TO-DATE
+> Task :shared_preferences_android:mergeDebugShaders UP-TO-DATE
+> Task :shared_preferences_android:compileDebugShaders NO-SOURCE
+> Task :shared_preferences_android:generateDebugAssets UP-TO-DATE
+> Task :shared_preferences_android:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:copyFlutterAssetsDebug
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :assets_audio_player:compileDebugRenderscript NO-SOURCE
+> Task :assets_audio_player:generateDebugResValues UP-TO-DATE
+> Task :assets_audio_player:generateDebugResources UP-TO-DATE
+> Task :assets_audio_player:packageDebugResources UP-TO-DATE
+> Task :assets_audio_player_web:compileDebugRenderscript NO-SOURCE
+> Task :assets_audio_player_web:generateDebugResValues UP-TO-DATE
+> Task :assets_audio_player_web:generateDebugResources UP-TO-DATE
+> Task :assets_audio_player_web:packageDebugResources UP-TO-DATE
+> Task :fluttertoast:compileDebugRenderscript NO-SOURCE
+> Task :fluttertoast:generateDebugResValues UP-TO-DATE
+> Task :fluttertoast:generateDebugResources UP-TO-DATE
+> Task :fluttertoast:packageDebugResources UP-TO-DATE
+> Task :path_provider_android:compileDebugRenderscript NO-SOURCE
+> Task :path_provider_android:generateDebugResValues UP-TO-DATE
+> Task :path_provider_android:generateDebugResources UP-TO-DATE
+> Task :path_provider_android:packageDebugResources UP-TO-DATE
+> Task :shared_preferences_android:compileDebugRenderscript NO-SOURCE
+> Task :shared_preferences_android:generateDebugResValues UP-TO-DATE
+> Task :shared_preferences_android:generateDebugResources UP-TO-DATE
+> Task :shared_preferences_android:packageDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :assets_audio_player:extractDeepLinksDebug UP-TO-DATE
+> Task :assets_audio_player:processDebugManifest UP-TO-DATE
+> Task :assets_audio_player_web:extractDeepLinksDebug UP-TO-DATE
+> Task :assets_audio_player_web:processDebugManifest UP-TO-DATE
+> Task :fluttertoast:extractDeepLinksDebug UP-TO-DATE
+> Task :fluttertoast:processDebugManifest UP-TO-DATE
+> Task :path_provider_android:extractDeepLinksDebug UP-TO-DATE
+> Task :path_provider_android:processDebugManifest UP-TO-DATE
+> Task :shared_preferences_android:extractDeepLinksDebug UP-TO-DATE
+> Task :shared_preferences_android:processDebugManifest UP-TO-DATE
+
+> Task :app:processDebugMainManifest FAILED
+[androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/brrrellu/.gradle/caches/transforms-3/75b9b9d73bce6872a4a626ad404c0c21/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml Warning:
+	Package name 'androidx.vectordrawable' used in: androidx.vectordrawable:vectordrawable-animated:1.0.0, androidx.vectordrawable:vectordrawable:1.0.0.
+/home/brrrellu/Documenti/ProgrammiInformatici/flutter/salmodiamo/android/app/src/main/AndroidManifest.xml Error:
+	android:exported needs to be explicitly specified for <receiver>. Apps targeting Android 12 and higher are required to specify an explicit value for `android:exported` when the corresponding component has an intent filter defined. See https://developer.android.com/guide/topics/manifest/activity-element#exported for details.
+
+See http://g.co/androidstudio/manifest-merger for more information about the manifest merger.
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:processDebugMainManifest'.
+> Manifest merger failed with multiple errors, see logs
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 16s
+48 actionable tasks: 5 executed, 43 up-to-date
