@@ -5,5 +5,5 @@ The app is still in its early stage. Each psalmodic tone is associated to a PNG 
 
 You can browse, listen each tone, see and zoom its score.
 
-[Download the App release apk](https://github.com/doriansoru/salmodiamo/salmodiamo.apk).
+[Download the App release apk](https://github.com/doriansoru/salmodiamo/blob/main/salmodiamo.apk).
 
