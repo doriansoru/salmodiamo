@@ -62,10 +62,10 @@ class MyRouterDelegate extends RouterDelegate<List<RouteSettings>>
   Future<void> setNewRoutePath(List<RouteSettings> configuration) async {}
 
   MaterialPage _createPage(RouteSettings routeSettings) {
-    Widget child = SalmodiamoMain(title: 'Salmodiamo');
+    Widget child = SalmodiamoMain();
     switch (routeSettings.name) {
       case '/':
-        //child = SalmodiamoMain(title: 'Salmodiamo');
+        child = SalmodiamoMain();
         break;
       case '/playtone':
         child = Playtone(routeSettings.arguments as String);

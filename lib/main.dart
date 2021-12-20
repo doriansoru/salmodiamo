@@ -6,14 +6,13 @@ import 'package:get/get.dart';
 import 'globals.dart' as globals;
 
 final routerDelegate = Get.put(MyRouterDelegate());
+final _AppTitle = 'Salmodiamo';
 
 void main() async {
   runApp(Salmodiamo());
 }
 
 class Salmodiamo extends StatelessWidget {
-  static const _AppTitle = 'Salmodiamo';
-
   Salmodiamo({Key? key}) : super(key: key) {
     routerDelegate.pushPage(name: '/');
   }
@@ -22,7 +21,7 @@ class Salmodiamo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: Salmodiamo._AppTitle,
+      title: _AppTitle,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -35,9 +34,7 @@ class Salmodiamo extends StatelessWidget {
 }
 
 class SalmodiamoMain extends StatefulWidget {
-  SalmodiamoMain({Key? key, required this.title}) : super(key: key);
-
-  final String title;
+  SalmodiamoMain({Key? key}) : super(key: key);
 
   @override
   State<SalmodiamoMain> createState() => _SalmodiamoMainState();
@@ -54,7 +51,7 @@ class _SalmodiamoMainState extends State<SalmodiamoMain> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: Text(_AppTitle),
       ),
       body: Center(
         child: Padding(
@@ -75,7 +72,7 @@ class _SalmodiamoMainState extends State<SalmodiamoMain> {
                 ),
                 SizedBox(height: 10),
                 Text(
-                  widget.title,
+                  _AppTitle,
                   style: Theme.of(context).textTheme.headline4,
                 ),
                 SizedBox(height: 20),
@@ -171,7 +168,6 @@ class _SalmodiamoMainState extends State<SalmodiamoMain> {
 }
 
 class Playtone extends StatelessWidget {
-  static const _AppTitle = 'Toni';
   String id;
 
   Playtone(this.id, {Key? key}) : super(key: key);
@@ -180,7 +176,7 @@ class Playtone extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: Playtone._AppTitle,
+        title: _AppTitle,
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
@@ -197,31 +193,31 @@ class PlaytoneMain extends StatefulWidget {
 }
 
 class _PlaytoneMainState extends State<PlaytoneMain> {
-  late String title;
-  late String type;
-  late String number;
-  String id;
+  late String _title;
+  late String _type;
+  late String _number;
+  String _id;
 
   List<Widget> _audios = [];
   List<Widget> _scores = [];
 
   List<Widget> _content = [];
 
-  _PlaytoneMainState(this.id) {
-    List<String> fields = id.split(globals.separator);
+  _PlaytoneMainState(this._id) {
+    List<String> fields = _id.split(globals.separator);
     if (fields.length == 2) {
-      type = fields[0];
-      number = fields[1];
+      _type = fields[0];
+      _number = fields[1];
     } else {
-      type = '';
-      number = '';
+      _type = '';
+      _number = '';
     }
-    switch (type) {
+    switch (_type) {
       case globals.psalms_prefix:
-        title = 'Toni per il Salmo numero ${number}';
+        _title = 'Toni per il Salmo numero ${_number}';
         break;
       case globals.tones_prefix:
-        title = 'Toni a ${number}';
+        _title = 'Toni a ${_number}';
         break;
     }
   }
@@ -235,12 +231,12 @@ class _PlaytoneMainState extends State<PlaytoneMain> {
         await DefaultAssetBundle.of(context).loadString('AssetManifest.json');
     final Map<String, dynamic> manifestMap = json.decode(assetsFile);
     Iterable<String> keys = [];
-    switch (type) {
+    switch (_type) {
       case globals.psalms_prefix:
         keys = manifestMap.keys
             .where((String key) => key.contains(globals.psalms_prefix +
                 globals.separator +
-                number +
+                _number +
                 globals.separator))
             .toList();
         break;
@@ -248,7 +244,7 @@ class _PlaytoneMainState extends State<PlaytoneMain> {
         keys = manifestMap.keys
             .where((String key) => key.contains(globals.tones_prefix +
                 globals.separator +
-                number +
+                _number +
                 globals.separator))
             .toList();
         break;
@@ -264,7 +260,7 @@ class _PlaytoneMainState extends State<PlaytoneMain> {
                   onTap: () {
                     //ScoreArguments args = ScoreArguments(type, number, key);
                     String args =
-                        '$id${globals.separator}${key.replaceAll(globals.separator, globals.url_replacement)}';
+                        '$_id${globals.separator}${key.replaceAll(globals.separator, globals.url_replacement)}';
                     print('args: $args');
                     routerDelegate.pushPage(
                       name: '/tonescore',
@@ -310,7 +306,7 @@ class _PlaytoneMainState extends State<PlaytoneMain> {
     ));
     _content.add(SizedBox(height: 10));
     _content.add(Text(
-      title,
+      _title,
       style: Theme.of(context).textTheme.headline4,
     ));
     _content.add(SizedBox(height: 20));
@@ -336,7 +332,7 @@ class _PlaytoneMainState extends State<PlaytoneMain> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text(title),
+          title: Text(_title),
         ),
         body: InteractiveViewer(
             child: Center(
@@ -351,7 +347,7 @@ class _PlaytoneMainState extends State<PlaytoneMain> {
 }
 
 class ToneScore extends StatelessWidget {
-  String _appTitle = 'Spartito';
+  String _title = 'Spartito';
 
   String id;
   late String type;
@@ -374,10 +370,10 @@ class ToneScore extends StatelessWidget {
     print('url: $url');
     switch (type) {
       case globals.psalms_prefix:
-        _appTitle += ' del Salmo numero $number';
+        _title += ' del Salmo numero $number';
         break;
       case globals.tones_prefix:
-        _appTitle += ' del tono a $number';
+        _title += ' del tono a $number';
         break;
     }
   }
@@ -387,7 +383,7 @@ class ToneScore extends StatelessWidget {
     _context = context;
     return Scaffold(
         appBar: AppBar(
-          title: Text(_appTitle),
+          title: Text(_title),
         ),
         body: Center(
             child: InteractiveViewer(
