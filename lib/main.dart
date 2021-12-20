@@ -229,6 +229,8 @@ class _PlaytoneMainState extends State<PlaytoneMain> {
   late String _number;
   String _id;
 
+  AssetsAudioPlayer get _assetsAudioPlayer => AssetsAudioPlayer.withId('music');
+
   List<Widget> _audios = [];
   List<Widget> _scores = [];
 
@@ -309,7 +311,8 @@ class _PlaytoneMainState extends State<PlaytoneMain> {
               ElevatedButton(
                   child: Text(tr('listen')),
                   onPressed: () {
-                    AssetsAudioPlayer.newPlayer().open(
+                    _assetsAudioPlayer.stop();
+                    _assetsAudioPlayer.open(
                       Audio(key.replaceAll(
                           globals.scores_ext, globals.audios_ext)),
                       autoStart: true,
